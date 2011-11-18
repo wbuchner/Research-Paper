@@ -1,0 +1,283 @@
+% Our document type specification.
+\documentclass[a4paper,14pt]{article}
+
+% this changed from the font to the default sans serif font
+%\renewcommand{\familydefault}{\sfdefault}
+% This is often sufficient, but geometry
+% allows one to more fully use a page.
+\usepackage[myheadings]{fullpage}
+\usepackage[T1]{fontenc}
+\renewcommand{\familydefault}{\sfdefault}
+%\usepackage{helvet}
+% Allows us to manipulate header and footer data.
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%\rhead{Wayne Buchner, 6643140} % Header right.
+%\lhead{Case Study: Swinburne Bookshop Co-operative} % Header left.
+\rfoot{} % Footer right.
+\lfoot{} % Footer left.
+
+% A generally useful package for
+% presenting maths-related things.
+%\usepackage{amsmath}
+%\usepackage{metre}
+%\usepackage{parskip}
+% Provides commands for printing text
+% in the exported document as it
+% appears in the LaTeX document.
+\usepackage{verbatim} 
+\usepackage{harvard}
+\usepackage{url}
+% for multiple rows in tables
+\usepackage{multirow}
+
+\usepackage{caption}
+
+% Lets one modify the paragraph
+% settings of the document.
+\usepackage{parskip}
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+% Used to import images for figures.
+\usepackage{graphicx}
+% Uncomment to add background images!
+%\usepackage{eso-pic}
+%\AddToShipoutPicture{%
+%\put(0,0){\includegraphics{background.pdf}}%
+
+
+\usepackage{sidecap}
+\usepackage{float}
+\usepackage{wrapfig}
+\floatstyle{boxed} 
+\restylefloat{figure}
+% A supplementary package for listings.
+\usepackage{fancyvrb}
+
+% Defines a number of colours.
+\usepackage[usenames,dvipsnames]{color}
+%\usepackage{titlesec}
+%\definecolor{sectionred}{rgb}{199,55,44}
+%\titleformat{\section}
+%{\color{sectionred}\normalfont\Large\bfseries{\thesection}{1em}{}
+
+\usepackage{sectsty}
+\sectionfont{\sffamily\underline}
+
+% Allows us to include code listings.
+% The following lines configure settings
+% for this package.
+\usepackage{listings}
+\lstset{language=[Objective]C, breakindent=40pt, breaklines}
+\lstset{ %
+basicstyle=\footnotesize,
+breaklines=true,
+breakatwhitespace=false
+}
+\lstdefinelanguage[FPC]{Pascal}[Standard]{Pascal}
+ {%
+	morecomment=[l]//,%
+  	morekeywords={uses,external,cdecl,export,%
+	forward,global,module,nil,operator,overload,%
+	priority,sum,type,use,dispose,mark,page,%
+	release,eof,eoln,ord,pos,pred,rval,succ,%
+	result,interface,implementation,unit}%
+ }%
+\lstset{keywordstyle=\color{Blue}}
+\lstset{commentstyle=\color{OliveGreen}}
+\lstset{stringstyle=\color{BrickRed}}
+\lstset{basicstyle=\scriptsize \sffamily}
+\lstset{captionpos=t}
+\lstset{frame=trbl}
+\lstset{fancyvrb=true}
+\lstset{numberstyle=\footnotesize}
+\lstset{showstringspaces=false}
+\lstset{tabsize=2}
+\lstset{language=[FPC]Pascal}
+\lstset{captionpos=b}
+
+% Applies an effect to captions; in
+% this case our listing captions.
+\usepackage{caption}
+\captionsetup[lstlisting]{labelfont=bf}
+
+% Provides nicer quotation marks for code.
+\usepackage{upquote}
+
+% Used to change row spacing in tables.
+\usepackage{array}
+
+% Provides extra options for appendices.
+\usepackage{appendix}
+
+% Supplies linking capabilities.
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=blue
+}
+
+% Allows us to use glossaries.
+\usepackage{glossaries}
+\newglossaryentry{sbs}{name = Swinburne Bookshop Co-operative, description = Swinburne Bookshop Co-operative}
+\newglossaryentry{gui}{name = Graphic User Interface, description = Graphic User Interface}
+\newglossaryentry{mvc}{name = Model View Controller, description = Model View Controller}
+
+%\newacronym{oop}{OOP}{Object Oriented Programming}
+%\newacronym{gui}{GUI}{Graphic User Interface}
+%\newacronym{mvc}{MVC}{Model View Controller}
+\makeglossaries
+% Glossary Items
+
+
+\makeglossaries
+% Separate our lines.
+\linespread{1.2}
+\setcounter{page}{0}
+\title{Research Report\\Use of objects in Graphic User Interfaces in Cocoa and Java Swing Foundation classes}
+\author{Wayne Buchner,6643140}
+\date{13-11-2011}
+
+\begin{document}
+
+\ifpdf
+\DeclareGraphicsExtensions{.pdf, .jpg, .tif}
+\else
+\DeclareGraphicsExtensions{.eps, .jpg}
+\fi
+
+\maketitle
+\thispagestyle{empty}
+\newpage
+
+\section{Introduction} % (fold)
+\label{sec:introduction}
+The \gls{gui} allows the user to interact with a program by manipulating properties of objects there by sending information from the View to the Controller. Both Objective C and Java accomplish this in similar ways. This research report focuses on the differences in producing \gls{gui}s using Objective C's Cocoa and Java's Swing packages. Inherently the greatest point of difference in developing on the aforementioned platform is Java Swing's ability to be a truly cross platform framework \cite{nla.cat-vn3060178}. Where as Apples Cocoa is a powerful platform centric framework constructed purely for the Mac OS and iOS platforms. This provides a focused set of frameworks. 
+
+%
+% NEED TO FIND THE RIGHT SECTION FOR THIS
+\citeasnoun{Dias2011} states that writing code can be a daunting experience for novice programmers and that designing in an interface using direct manipulation of objects is a powerful learning tool to what was once a steep learning curve. Research undertaken for this document will provide proof that advances in \gls{gui} builders significantly reduce code writing time, increasing efficiency and reduce errors. Removing unnecessary debugging time from the development lifecycle by reducing errors and increasing code quality as GUI builders improve, may reduce development times and allow developers to concentrate on other areas. Tests results generated for this paper are the results of timed tests between Apple's native integrated development environment, XCode Oracles Netbeans. Results are the comparison in improvements to code completion and build times.  
+%
+
+\textbf{Section \ref{sec:graphic_user_interface_architecture}} will introduce the \gls{gui} architecture and explain at a high level the structure of the class hierarchies including an introduction to the Model View Controller (MVC) principals. \textbf{Section \ref{sec:framework_specific_objects}} compares available platform generic frameworks. \textbf{Section \ref{sec:object_information_passing}} explains in detail the differences between information passing and event handling across the two platforms while.
+% section introduction (end)
+
+\section{Graphic User Interface Architecture An Introduction} % (fold)
+\label{sec:graphic_user_interface_architecture}
+A \gls{gui} allows the to user interacts with a system. A well designed interface should leverage a users existing knowledge there by improving the effectiveness of the users interaction. Both Cocoa and Swing allow for the layering of objects to be built in a hierarchical manor in order for the user to perform tasks, or in programming terminology trigger events. Although they achieve this in different ways, the semantics are minute in terms of actual designing, where Cocoa generally moved towards a design process based more on WYSIWIG allowing for more productive workflow, other development languages have been slow to implement or follow this lead. Developing a \gls{gui} in Swing can be achieved either through a plain text file containing the code for a window or via a WYSIWIG editor found in IDE's such as BlueJay, Netbeans or Eclipse.
+
+Both platforms isolate the view from the data by implementing the \gls{mvc} design pattern (further discussed in Section \ref{sec:object_information_passing}) and the similarities do not end there. Both inherit all core functionalities from a root Object class, NSObject for Cocoa and the JComponent class for Swing. Briefly, although the terminology may be different, both frameworks create an interface in a similar manor. Table \ref{table:tableSimilarClasses} below shows the counterpart for main GUI objects that are shared across both frameworks.
+
+
+\begin{table}[here]
+\centering
+\begin{tabular}{l}
+\includegraphics[scale=1.0]{tableSimilarClasses.eps}
+\end{tabular}
+\caption{Average time of 20 build cycles for a simple Hello World Program}
+\label{table:tableSimilarClasses}
+\end{table}
+
+%
+%  DISCUSS DYNAMIC VIEWS!  THAT IS VIEWS THAT ARE CREATED IN CODE AND THUS ARE NOT AVAILABLE TO EDIT VISUALLY.
+%
+%
+%
+%
+
+
+As you can see in Table \ref{table:tableSimilarClasses} both platforms fundamentally build a \gls{gui} using similar constructs. The class names may be different however the principal behind them is similar. Where Java Swing endeavors to supply a cross platform framework, Cocoa is tailored to the MacOS and iOS platforms offering a more rigid, extensible framework build foremost with the platforms specifications. 
+\subsection{View Hierarchy in Cocoa} % (fold)
+\label{sub:view_hierarchy_in_cocoa}
+Figure \ref{fig:cocoaHierarchy} shows Cocoa's UIKit Class Hierarchy. Note that all objects inherit directly from the root class of NSObject. Also being more platform specific it has platform centric objects targeted at specific hardware devices. Building a \gls{gui} using Cocoa has been further simplified by the employment and development over countless iterations of the Integrated Development Environment, XCode. XCode's interface builder offers detailed information on objects and offers only objects appropriate for use in the particular project, saving the developer time implementing unsupported user interface elements. As an aside, the newest iteration of XCode allows for storyboarding of windows to further simplify navigation between windows.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.80]{UIKitClassHierarchy.eps}
+\caption{Cocoa UIKit Class Hierarchy. \protect\citeasnoun{Apple2010a} }
+\label{fig:cocoaHierarchy}
+\end{figure}
+% subsection view_hierarchy_in_cocoa (end)
+
+\subsection{View Hierarchy in Swing} % (fold)
+\label{sub:view_hierarchy_in_swing}
+In Figure \ref{fig:swingHierarchy} you can see that Swing's hierarchy is configured only slightly differently, with JComponent inheriting from the Container class, whose root class is Object. Java Swing is a lightweight framework built on top of Java's awt framework. Due to it's completely Java construction it can be easily mixed with other Java Component class objects such as standard Java AWT labels, text fields and scrollbars.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.8]{Java1.png}
+\caption{Swing Class Hierarchy. \protect\citeasnoun{Oracle2010}}
+\label{fig:swingHierarchy}
+\end{figure}
+% subsection view_hierarchy_in_swing (end)
+
+%
+%  TALK A LITTLE ABOUT DYNAMIC STUFF
+%
+%
+
+\subsection{Hello World} % (fold)
+\label{sub:hello_world}
+Moving from text based user interaction to a \gls{gui} the understanding of how input is received changes. A programmer must shift from taking the result of a direct prompt to listening for user interactions. This is called event based programming and that is how \gls{gui}'s work. Both Swing and Cocoa work in this manor. In both frameworks, \textbf{Event Listeners} respond to interaction with specific elements of the UI.
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.17]{HelloWorldLabelHookUp.eps}
+\caption{Interface Builder, XCode 4.1}
+\label{fig:interfaceBuilder}
+\end{figure}
+
+Figure \ref{fig:interfaceBuilder} shows the simplicity of \textbf{Hooking Up} an object created in interface builder to the view controller. Once an object has been created and Hooked up to a view controller or a delegate, it then becomes available to manipulate throughout the class via generated code placed directly into the corresponding header and implementation files. XCode places the correct getter and setter methods for the properties of the object via the @synthezise declaration. Java's design view works in a similar way Figure \ref{fig:netbeans} shows the Design View for a Java Swing window. Selecting the object in the design view and adding an \textbf{Event} places an event listener method into the class ready for code in a similar way that XCode places the method into the implementation file. 
+
+Constructing the user interface with the assistance of a \gls{gui} builder proved extremely fast on both platforms. Table \ref{table:buildTimes} compares the user interface construction and build times for the test Hello World program using hand coding versus the IDE's assisted user interface builder. Based on the results constructing the Hello World program, developing time for a complex user interface like the interface shown in \ref{swintrekuserinterface} will be dramatically improved using an \gls{gui} builder. The figures in Table \ref{table:buildTimes} would indicate there is no noticeable difference in build time for either platform when comparing between the programs hand coded versus auto generated code. Where the figures return an indication of difference lie in the ability to speedily outlay a user interface.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.29]{netbeans.eps}
+\caption{Design View, NetBeans 7.01}
+\label{fig:netbeans}
+\end{figure}
+
+\begin{table}[here]
+\centering
+\begin{tabular}{l}
+\includegraphics[scale=0.65]{TableBuildCompares.eps}
+\end{tabular}
+\caption{Average time of 20 build cycles for a simple Hello World Program}
+\label{table:buildTimes}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.24]{swintrekuserinterface.eps}
+\caption{SwinTrek User Interface, XCode}
+\label{fig:swintrekui}
+\end{figure}
+
+\textbf{Getting} and \textbf{Setting} objects properties created using GUI builders in these two instances are no different over the two platforms that creating objects in code. Object properties can be manipulated through method calls or dot notation in both platforms. Infact there is only a small difference between the two in this case and that is to change a simple property on an object in Java, an event must be called or the getter or setter for that object must be called from within an event. Apple set up a series of methods where code can be inserted and ran. Where as Java, all ***  HERE set up the differences between the two platforms and the way objects are manipulated ***
+% subsection hello_world (end)
+
+% section graphic_user_interface_architecture (end)
+
+\section{Framework specific objects} % (fold)
+\label{sec:framework_specific_objects}
+Both frameworks have developed comprehensive lists of classes that are available to a programmer to perform almost any required tasks
+% section framework_specific_objects (end)
+
+\section{Object Information Passing} % (fold)
+\label{sec:object_information_passing}
+
+% section object_information_passing (end)
+
+\newpage
+\scriptsize{\bibliographystyle{agsm}}
+\bibliography{objects.bib}
+\end{document}

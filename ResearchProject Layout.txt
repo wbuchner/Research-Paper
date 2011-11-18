@@ -1,0 +1,20 @@
+Introduction to GUI
+		Background gui and Command line - event handling vs message driven and then how they merge to create the interface for the program
+		brief introduction Building Graphic User interfaces in XCode and Java Swing
+Available Objects
+		Platform available generic objects
+		Table of objects 
+
+
+		
+Platform specific objects, differences between
+		How a number of the similar objects work 
+
+Information passing from GUI to methods
+		Event handling, information available on the object 
+		testing the object, comparing the object
+		
+Platform limitations
+
+
+A Gra

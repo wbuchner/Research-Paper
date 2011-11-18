@@ -1,0 +1,262 @@
+% This file was created with JabRef 2.6.
+% Encoding: MacRoman
+
+@MISC{Apple2010,
+  author = {Apple},
+  title = {Cocoa Fundamentals Guide},
+  howpublished = {online},
+  year = {2010},
+  owner = {wayne},
+  timestamp = {2011.11.01},
+  url = {http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/CocoaFundamentals/CocoaObjects/CocoaObjects.html#//apple_ref/doc/uid/TP40002974-CH4-SW31}
+}
+
+@INBOOK{Apple2010a,
+  chapter = {1},
+  pages = {46},
+  title = {Cocoa Fundamentals},
+  publisher = {Apple Inc},
+  year = {2010},
+  author = {Apple},
+  owner = {wayne},
+  timestamp = {2011.11.07}
+}
+
+@INPROCEEDINGS{Dias2011,
+  author = {Dias, P. and Oliveira, S.},
+  title = {Meet and greet programming using graphical languages and tangible
+	interfaces},
+  booktitle = {Information Systems and Technologies (CISTI), 2011 6th Iberian Conference
+	on},
+  year = {2011},
+  pages = {1 -4},
+  month = {june},
+  keywords = {Botbeans;graphical language;meet and greet programming;student motivation;tangible
+	interface;visual languages;visual programming;}
+}
+
+@ARTICLE{Leinfuss1993,
+  author = {Leinfuss,Emily},
+  title = {GUI builders require application portability trade-offs. (graphical
+	user interface) (includes directory) (Buyers Guide)},
+  journal = {Software Magazine},
+  year = {1993},
+  volume = {v13},
+  pages = {p15(5)},
+  abstract = {Users seeking to build portable and complete graphical user interface
+	(GUI) applications face some trade-offs on the benefits they get,
+	because GUI development tools offer differing database, network and
+	operating system portability. The two types of GUI builders in the
+	market are: GUI-only tools, that provide a runtime environment for
+	most GUI platforms, and GUI tools that offer both portability and
+	an application development environment. The latter type of tools
+	are more useful and more integrated than the GUI-only tools. While
+	these programs are intended to free the programmer from the complexity
+	of user interface technologies; and management, network and operating
+	system technologies, actual products in the market do not have the
+	capability for providing all those technologies. Some users' experiences
+	with GUI tools are described.},
+  owner = {wayne},
+  timestamp = {2011.11.10},
+  url = {http://find.galegroup.com/gtx/infomark.do?&contentSet=IAC-Documents&type=retrieve&tabID=T003&prodId=AONE&docId=A13663723&source=gale&srcprod=AONE&userGroupName=swinburne1&version=1.0}
+}
+
+@INPROCEEDINGS{Li2008,
+  author = {Li, Peng and Wohlstadter, Eric},
+  title = {View-based maintenance of graphical user interfaces},
+  booktitle = {Proceedings of the 7th international conference on Aspect-oriented
+	software development},
+  year = {2008},
+  series = {AOSD '08},
+  pages = {156--167},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  acmid = {1353501},
+  doi = {http://doi.acm.org/10.1145/1353482.1353501},
+  isbn = {978-1-60558-044-9},
+  location = {Brussels, Belgium},
+  numpages = {12},
+  url = {http://doi.acm.org/10.1145/1353482.1353501}
+}
+
+@ARTICLE{Liang1998943,
+  author = {Wen-Yau Liang and Peter O'Grady},
+  title = {Design with objects: an approach to object-oriented design},
+  journal = {Computer-Aided Design},
+  year = {1998},
+  volume = {30},
+  pages = {943 - 956},
+  number = {12},
+  doi = {10.1016/S0010-4485(98)00050-5},
+  issn = {0010-4485},
+  keywords = {Design process},
+  url = {http://www.sciencedirect.com/science/article/pii/S0010448598000505}
+}
+
+@ARTICLE{Marquess1993,
+  author = {Marquess, Philip L. and Bourne, Philip E.},
+  title = {GUI builders: face lift for application development. (graphical user
+	interface) (Open Computing)},
+  journal = {DEC Professional},
+  year = {1993},
+  volume = {v12},
+  pages = {p32(5)},
+  abstract = {The usage of graphical user interfaces (GUI) have revolutionized software
+	packages. End-users can be up to 80 percent more productive using
+	GUI-based applications rather than text-based applications. While
+	GUIs have been a boon to end-users, software developers have had
+	to spend up to 80 percent of their coding time on developing interfaces.
+	GUI builders are interfaces that allow developers to create other
+	GUIs. GUI builders make program development easier and this segment
+	of the program development software market is growing dramatically.
+	Instead of having to code, compiling and testing long listings of
+	code, developers can lay out an interface and test it without having
+	to write any code. Many GUI builders allow developers to drag and
+	drop elements, as well as set attributes for each desired elements.
+	When selecting a GUI builder, users should look for a programming
+	language that best fits the layout and hierarchy of the application
+	under development. Users should be able to try GUI builders before
+	buying; there is a shareware GUI builder available via the Internet.},
+  owner = {wayne},
+  timestamp = {2011.11.10}
+}
+
+@ARTICLE{Meskens2009,
+  author = {Jan Meskens and Kris Luyten and Karin Coninx},
+  title = {Shortening user interface design iterations through realtime visualisation
+	of design actions on the target device},
+  journal = {Visual Languages and Human-Centric Computing, IEEE Symposium on},
+  year = {2009},
+  volume = {0},
+  pages = {132-135},
+  address = {Los Alamitos, CA, USA},
+  doi = {http://doi.ieeecomputersociety.org/10.1109/VLHCC.2009.5295281},
+  isbn = {978-1-4244-4876-0},
+  publisher = {IEEE Computer Society}
+}
+
+@ARTICLE{Myers1995,
+  author = {Myers, Brad A.},
+  title = {User interface software tools},
+  journal = {ACM Trans. Comput.-Hum. Interact.},
+  year = {1995},
+  volume = {2},
+  pages = {64--103},
+  month = {March},
+  acmid = {200971},
+  address = {New York, NY, USA},
+  doi = {http://doi.acm.org/10.1145/200968.200971},
+  issn = {1073-0516},
+  issue = {1},
+  keywords = {interface builders, toolkits, user interface development environments,
+	user interface software},
+  numpages = {40},
+  publisher = {ACM},
+  url = {http://doi.acm.org/10.1145/200968.200971}
+}
+
+@ARTICLE{Myers2000,
+  author = {Myers, Brad and Hudson, Scott E. and Pausch, Randy},
+  title = {Past, present, and future of user interface software tools},
+  journal = {ACM Trans. Comput.-Hum. Interact.},
+  year = {2000},
+  volume = {7},
+  pages = {3--28},
+  month = {March},
+  acmid = {344959},
+  address = {New York, NY, USA},
+  doi = {http://doi.acm.org/10.1145/344949.344959},
+  issn = {1073-0516},
+  issue = {1},
+  issue_date = {March 2000},
+  keywords = {event languages, interface builders, scripting languages, toolkits,
+	user interface development environments, user interface software},
+  numpages = {26},
+  publisher = {ACM},
+  url = {http://doi.acm.org/10.1145/344949.344959}
+}
+
+@INPROCEEDINGS{Oracle2010,
+  author = {Oracle},
+  title = {Java 2 SDK SE Developer Documentation},
+  booktitle = {Hierarchy For Package javax.swing},
+  year = {2010},
+  owner = {wayne},
+  timestamp = {2011.11.07},
+  url = {http://download.oracle.com/javase/1,5,0/docs/api/javax/swing/package-tree.html}
+}
+
+@ARTICLE{Rogers2011,
+  author = {Rogers, Michael P.},
+  title = {There and back again: leveraging iOS development on Mac OS X},
+  journal = {J. Comput. Sci. Coll.},
+  year = {2011},
+  volume = {26},
+  pages = {174--180},
+  month = {May},
+  acmid = {1961613},
+  address = {USA},
+  issn = {1937-4771},
+  issue = {5},
+  issue_date = {May 2011},
+  numpages = {7},
+  publisher = {Consortium for Computing Sciences in Colleges},
+  url = {http://dl.acm.org/citation.cfm?id=1961574.1961613}
+}
+
+@BOOK{nla.cat-vn3060178,
+  title = {The Java way : an introduction to Java programming / Gerard Sparke},
+  publisher = { Pearson Education Australia, Frenchs Forest, N.S.W. : },
+  year = { 2006 },
+  author = {Sparke, Gerard},
+  pages = { xiii, 650 p. ; },
+  catalogue-url = { http://nla.gov.au/nla.cat-vn3060178 },
+  isbn = { 1741031915 },
+  language = { English },
+  life-dates = { 2003 - },
+  subjects = { Java (Computer program language) },
+  type = { Book }
+}
+
+@ARTICLE{Wurthinger2010,
+  author = {W\"{u}rthinger, Thomas and Binder, Walter and Ansaloni, Danilo and
+	Moret, Philippe and M\"{o}ssenb\"{o}ck, Hanspeter},
+  title = {Applications of enhanced dynamic code evolution for Java in GUI development
+	and dynamic aspect-oriented programming},
+  journal = {SIGPLAN Not.},
+  year = {2010},
+  volume = {46},
+  pages = {123--126},
+  month = oct,
+  acmid = {1868312},
+  address = {New York, NY, USA},
+  doi = {http://doi.acm.org/10.1145/1942788.1868312},
+  issn = {0362-1340},
+  issue = {2},
+  issue_date = {Febuary 2011},
+  keywords = {code hotswapping, dynamic aspect-oriented programming, dynamic code
+	evolution, dynamic software updates, java virtual machine, runtime
+	weaving},
+  numpages = {4},
+  publisher = {ACM},
+  url = {http://doi.acm.org/10.1145/1942788.1868312}
+}
+
+@ARTICLE{Winchester2004,
+  author = {Winchester,Joe},
+  title = {To layout() or not to layout().(Desktop Java Viewpoint)},
+  journal = {Java Developer's Journal},
+  year = {2004},
+  volume = {9},
+  owner = {wayne},
+  timestamp = {2011.11.10}
+}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_keywords:}
+
