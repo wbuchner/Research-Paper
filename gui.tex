@@ -237,7 +237,7 @@ Moving from text based user interaction to a \gls{gui} the understanding of how 
 
 Figure \ref{fig:interfaceBuilder} shows the simplicity of \textbf{Hooking Up} an object created in interface builder to the view controller. Once an object has been created and Hooked up to a view controller or a delegate, it then becomes available to manipulate throughout the class via generated code placed directly into the corresponding header and implementation files. XCode places the correct getter and setter methods for the properties of the object via the @synthezise declaration. Java's design view works in a similar way Figure \ref{fig:netbeans} shows the Design View for a Java Swing window. Selecting the object in the design view and adding an \textbf{Event} places an event listener method into the class ready for code in a similar way that XCode places the method into the implementation file. 
 
-Constructing the user interface with the assistance of a \gls{gui} builder proved extremely fast on both platforms. Table \ref{table:buildTimes} compares the user interface construction and build times for the test Hello World program using hand coding versus the IDE's assisted user interface builder. Based on the results constructing the Hello World program, developing time for a complex user interface like the interface shown in \ref{swintrekuserinterface} will be dramatically improved using an \gls{gui} builder. The figures in Table \ref{table:buildTimes} would indicate there is no noticeable difference in build time for either platform when comparing between the programs hand coded versus auto generated code. Where the figures return an indication of difference lie in the ability to speedily outlay a user interface.
+Constructing the user interface with the assistance of a \gls{gui} builder proved extremely fast on both platforms. Table \ref{table:buildTimes} compares the user interface construction and build times for the test Hello World program using hand coding versus the IDE's assisted user interface builder. Based on the results constructing the Hello World program, developing time for a complex user interface like the interface shown in Figure \ref{fig:swintrekui} will be dramatically improved using an \gls{gui} builder. The figures in Table \ref{table:buildTimes} would indicate there is no noticeable difference in build time for either platform when comparing between the programs hand coded versus auto generated code. Where the figures return an indication of difference lie in the ability to efficiently design and layout a user interface.
 
 \begin{figure}[H]
 \centering
@@ -262,14 +262,112 @@ Constructing the user interface with the assistance of a \gls{gui} builder prove
 \label{fig:swintrekui}
 \end{figure}
 
-\textbf{Getting} and \textbf{Setting} objects properties created using GUI builders in these two instances are no different over the two platforms that creating objects in code. Object properties can be manipulated through method calls or dot notation in both platforms. Infact there is only a small difference between the two in this case and that is to change a simple property on an object in Java, an event must be called or the getter or setter for that object must be called from within an event. Apple set up a series of methods where code can be inserted and ran. Where as Java, all ***  HERE set up the differences between the two platforms and the way objects are manipulated ***
+\textbf{Getting} and \textbf{Setting} objects properties created using GUI builders operate similarly in both platforms. Differences across the platforms are syntactical and reserved to either taking the shortcut in XCode and allowing it to synthesize these properties values for you, or writing the getters and setter code as you would in the same way in Java. The benefit of XCode is the ability to change these post GUI build where as in NetBeans changing a property created by the GUI, the name perhaps or removing it must be done through the GUI builder.
 % subsection hello_world (end)
 
+\subsection{Simple Calculator} % (fold)
+\label{sub:simple_calculator}
+Further testing the hypothesis that XCode is a more efficient IDE as offered in section \ref{sub:hello_world} is proven in this section. Results of the Hello World program shown in \ref{sub:hello_world} are further collaborated by constructing and testing a more complex program. A calculator that adds or subtracts two numbers in both Objective C and Java would be used to as further evidence. The devised test is to build four programs, a hand Coded Calculator and a Calculator created with the help of the IDE's interface builder over both platforms. This process was timed recording Build and run sequences, lines of code required and average errors per build. The results for building the simple calculators can be seen in Table \ref{table:simplecalc}. 
+\begin{table}[H]
+\centering
+\begin{tabular}{l}
+\includegraphics[scale=0.65]{simplecalculator.eps}
+\end{tabular}
+\caption{Recorded Statistics for the Simple Calculator Test}
+\label{table:simplecalc}
+\end{table}
+Apart from a dramatic difference in build time, laying out objects in XCode was a more efficient process. \citeasnoun{nla.cat-vn3060178} state that the most compelling reasons for using GUI builder for an application with even moderate complexity, is for efficiency. An IDE's interface builder offers more affordance and is far simpler to initialize parameters inside the IDE than NetBeans. Another point of difference where XCode allows free reign for placement of objects onto the window, Java utilizes a layout manager to specify and control the layout of objects on a JPanel or JContainer \cite{nla.cat-vn3060178}. By default Java places objects into a FlowLayout unless specified otherwise. Although object properties can be altered, Java's documentation says that it's layout manager has the final say on the size and position on components within containers \cite{Oracle2011}. Other layout managers can be initialized if required, they are:
+\begin{enumerate}
+		\item BorderLayout
+		\item CardLayout
+		\item FlowLayout
+		\item GridBagLayout
+		\item GridLayout
+\end{enumerate}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1.0]{Calculators.eps}
+\caption{Four Test Calculators}
+\label{fig:calculators}
+\end{figure}
+Figure \ref{fig:calculators} shows the layouts of the calculators produced for the tests.
+\begin{enumerate}
+\item Calculators labeled A through B:
+	\begin{itemize}
+	    \item A: Built in XCode using Interface Builder
+	    \item B: Built in XCode, hand coded.
+	\end{itemize} 
+	\item Calculators labeled C through D:
+		\begin{itemize}
+		    \item C: Built in NetBeans using using the IDE's Interface Builder and Java Swing Packages.
+		    \item D: Built in NetBeans, hand coded using Java Swing Packages.
+		\end{itemize}
+\end{enumerate}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{l}
+\includegraphics[scale=0.6]{FileComparisons.pdf}
+\end{tabular}
+\caption{Simple Calculator Comparison Results}
+\label{table:calccompare}
+\end{table}
+Code practices for each platform were strictly adhered to. This allowed for the best possible comparison between the two platforms. It is clear to see from Table \ref{table:calccompare} that XCode produces the least amount of code to accomplish the result. Not only does this conform well with ISO9126(1992), future maintenance of the Objective-C's calculator will be easier than the auto generated Java code of 480 lines.
+
+Objective-C allows for the multiple use of instance variable names which allows for greater code flexibility when creating dynamic object instances such as buttons. Java insisted I create each object instance with a unique name. 
+Creating a button in Objective-C entailed one method as Listing \ref{generateButtonObj}. When called by the class it instantiated an instance of NSButton, added all the required properties to initialize the button and was added to the view.
+ 
+\begin{lstlisting}[caption={Create Button - Objective-C},language=C,label=generateButtonObj,]
+- (void)generateButtons:(NSView *)newView withButtonWidth:(int)buttonWidth andbuttonHeight:(int)buttonHeight andWhiteSpace:(int)whiteSpace withXPos:(int)xPos andYPos:(int)yPos withAdder:(int)adder andValue:(NSString *)stringVal
+{
+    NSButton *button = [[[NSButton alloc] initWithFrame:NSRectFromCGRect(CGRectMake(xPos, yPos , buttonWidth, buttonHeight)) ]autorelease];
+    [button setTitle:stringVal];
+    [newView addSubview:button];
+    [button setAction:@selector(operationPressed:)];
+}
+\end{lstlisting}
+Alternatively Java instead of a single method as seen above to create the required buttons for the keypad, Java required three separate methods and an array declaration as an additional class field.
+First a method to add a button similar to the Objective-C method of generateButton. The method shown in Listing \ref{addButtonJava} emphasizes the differences. An array of Strings was required for the instance name and syntactically the code is far more verbose. Due to the necessity of requiring additional methods to create my keypad I was required to return the button created out of this method for use by another method that added the object to the view, titles \textbf{layOutButtons}, seen in Listing \ref{layOutButtons}.\newpage
+\begin{lstlisting}[caption={Create Button - Java},language=Java,label=addButtonJava,]
+public JButton addButton(int xPos, int yPos, int count, int i)
+   {
+        btnKeyPad[i] = new JButton(""+count);
+        btnKeyPad[i].setSize(47, 38);
+        btnKeyPad[i].setLocation(xPos,yPos);
+        btnKeyPad[i].addMouseListener(new java.awt.event.MouseAdapter() {
+            @Override
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                digitPressed(evt);
+            }
+        });              
+        return btnKeyPad[i];
+   }
+\end{lstlisting}
+\begin{lstlisting}[caption={Lay Out Buttons - Java},language=Java,label=layOutButtons,]
+public  void layOutButtons(JFrame cn)
+   {
+       int xSpace = 50;
+       for (int i = 1; i < 4; i ++){
+           cn.add(addButton(xSpace,250,i,i));
+           cn.add(addButton(xSpace,200,i+3,i+3));
+           cn.add(addButton(xSpace,150,i+6,i+6));
+        xSpace = xSpace+50;
+       }
+       
+       cn.add(addButton(50,300,0,0));
+       cn.add(addExpression(200, 150, exp[0], 0));
+       cn.add(addExpression(200, 200, exp[1], 0));
+       cn.add(addExpression(200, 250, exp[2], 0));
+       cn.add(addExpression(200, 300, "AC", 0));
+   }
+\end{lstlisting}
+% subsection simple_calculator (end)
 % section graphic_user_interface_architecture (end)
 
-\section{Framework specific objects} % (fold)
-\label{sec:framework_specific_objects}
-Both frameworks have developed comprehensive lists of classes that are available to a programmer to perform almost any required tasks
+\section{Event Handling} % (fold)
+\label{sec:event_handling}
+THIS SECTION COVERS HOW THE SYSTEMS DEAL WITH EVENTS
 % section framework_specific_objects (end)
 
 \section{Object Information Passing} % (fold)

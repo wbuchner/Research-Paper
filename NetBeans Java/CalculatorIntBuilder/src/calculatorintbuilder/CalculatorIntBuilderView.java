@@ -27,10 +27,6 @@ public class CalculatorIntBuilderView extends FrameView {
     
     public CalculatorIntBuilderView(SingleFrameApplication app) {
         super(app);
-     
-      
-        
-
         initComponents();
 
         // status bar initialization - message timeout, idle icon and busy animation, etc

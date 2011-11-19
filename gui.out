@@ -3,5 +3,6 @@
 \BOOKMARK [2][-]{subsection.2.1}{View Hierarchy in Cocoa}{section.2}% 3
 \BOOKMARK [2][-]{subsection.2.2}{View Hierarchy in Swing}{section.2}% 4
 \BOOKMARK [2][-]{subsection.2.3}{Hello World}{section.2}% 5
-\BOOKMARK [1][-]{section.3}{Framework specific objects}{}% 6
-\BOOKMARK [1][-]{section.4}{Object Information Passing}{}% 7
+\BOOKMARK [2][-]{subsection.2.4}{Simple Calculator}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Event Handling}{}% 7
+\BOOKMARK [1][-]{section.4}{Object Information Passing}{}% 8

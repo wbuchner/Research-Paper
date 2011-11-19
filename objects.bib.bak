@@ -176,6 +176,16 @@
   url = {http://doi.acm.org/10.1145/344949.344959}
 }
 
+@INPROCEEDINGS{,
+  author = {Oracle},
+  title = {The Java Tutorials},
+  booktitle = {The Java Tutorials},
+  year = {2011},
+  owner = {wayne},
+  timestamp = {2011.11.18},
+  url = {http://docs.oracle.com/javase/tutorial/uiswing/layout/using.html}
+}
+
 @INPROCEEDINGS{Oracle2010,
   author = {Oracle},
   title = {Java 2 SDK SE Developer Documentation},
