@@ -2,9 +2,9 @@
 \begin{theglossary}\glossaryheader
 \glsgroupheading{G}\relax \glsresetentrylist %
 \glossaryentryfield{gui}{\glsnamefont{Graphic User Interface}}{Graphic User Interface}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{1\delimN 2}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{4\delimN 5}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{2\delimN 3}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{5\delimN 6}}}\glsgroupskip
 \glsgroupheading{M}\relax \glsresetentrylist %
 \glossaryentryfield{mvc}{\glsnamefont{Model View Controller}}{Model View Controller}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{1}}}%
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \end{theglossary}\glossarypostamble

@@ -153,6 +153,8 @@ breakatwhitespace=false
 \maketitle
 \thispagestyle{empty}
 \newpage
+\tableofcontents
+\newpage
 
 \section{Introduction} % (fold)
 \label{sec:introduction}
@@ -190,7 +192,7 @@ Both platforms isolate the view from the data by implementing the \gls{mvc} desi
 %
 
 
-As you can see in Table \ref{table:tableSimilarClasses} both platforms fundamentally build a \gls{gui} using similar constructs. The class names may be different however the principal behind them is similar. Where Java Swing endeavors to supply a cross platform framework, Cocoa is tailored to the MacOS and iOS platforms offering a more rigid, extensible framework build foremost with the platforms specifications. 
+Table \ref{table:tableSimilarClasses} outlines that both platforms fundamentally build a \gls{gui} using similar constructs. The class names may be different however the principal behind them is similar. Where Java Swing endeavors to supply a cross platform framework, Cocoa is tailored to the MacOS and iOS platforms offering a more rigid, extensible framework build foremost with the platforms specifications. 
 \subsection{View Hierarchy in Cocoa} % (fold)
 \label{sub:view_hierarchy_in_cocoa}
 Figure \ref{fig:cocoaHierarchy} shows Cocoa's UIKit Class Hierarchy. Note that all objects inherit directly from the root class of NSObject. Also being more platform specific it has platform centric objects targeted at specific hardware devices. Building a \gls{gui} using Cocoa has been further simplified by the employment and development over countless iterations of the Integrated Development Environment, XCode. XCode's interface builder offers detailed information on objects and offers only objects appropriate for use in the particular project, saving the developer time implementing unsupported user interface elements. As an aside, the newest iteration of XCode allows for storyboarding of windows to further simplify navigation between windows.
@@ -249,7 +251,7 @@ Constructing the user interface with the assistance of a \gls{gui} builder prove
 \begin{table}[here]
 \centering
 \begin{tabular}{l}
-\includegraphics[scale=0.65]{TableBuildCompares.eps}
+\includegraphics[scale=0.62]{TableBuildCompares.eps}
 \end{tabular}
 \caption{Average time of 20 build cycles for a simple Hello World Program}
 \label{table:buildTimes}
@@ -276,7 +278,7 @@ Further testing the hypothesis that XCode is a more efficient IDE as offered in 
 \caption{Recorded Statistics for the Simple Calculator Test}
 \label{table:simplecalc}
 \end{table}
-Apart from a dramatic difference in build time, laying out objects in XCode was a more efficient process. \citeasnoun{nla.cat-vn3060178} state that the most compelling reasons for using GUI builder for an application with even moderate complexity, is for efficiency. An IDE's interface builder offers more affordance and is far simpler to initialize parameters inside the IDE than NetBeans. Another point of difference where XCode allows free reign for placement of objects onto the window, Java utilizes a layout manager to specify and control the layout of objects on a JPanel or JContainer \cite{nla.cat-vn3060178}. By default Java places objects into a FlowLayout unless specified otherwise. Although object properties can be altered, Java's documentation says that it's layout manager has the final say on the size and position on components within containers \cite{Oracle2011}. Other layout managers can be initialized if required, they are:
+Apart from a dramatic difference in build time, laying out objects in XCode was a more efficient process. \citeasnoun{nla.cat-vn3060178} state that the most compelling reasons for using GUI builder for an application with even moderate complexity, is for efficiency. XCode's interface builder offers more affordance for the programmer and is far simpler to initialize parameters inside the IDE than NetBeans. Another point of difference where XCode allows free reign for placement of objects onto the window, Java utilizes a layout manager to specify and control the layout of objects on a JPanel or JContainer \cite{nla.cat-vn3060178}. By default Java places objects into a FlowLayout unless specified otherwise. Although object properties can be altered, Java's documentation says that it's layout manager has the final say on the size and position on components within containers \cite{Oracle2011}. Other layout managers can be initialized if required, they are:
 \begin{enumerate}
 		\item BorderLayout
 		\item CardLayout
@@ -313,10 +315,13 @@ Figure \ref{fig:calculators} shows the layouts of the calculators produced for t
 \caption{Simple Calculator Comparison Results}
 \label{table:calccompare}
 \end{table}
-Code practices for each platform were strictly adhered to. This allowed for the best possible comparison between the two platforms. It is clear to see from Table \ref{table:calccompare} that XCode produces the least amount of code to accomplish the result. Not only does this conform well with ISO9126(1992), future maintenance of the Objective-C's calculator will be easier than the auto generated Java code of 480 lines.
+Code practices for each platform were strictly adhered to. This allowed for the best possible comparison between the two platforms. It is clear to see from Table \ref{table:calccompare} that XCode produces the least amount of code to accomplish the result. Not only does this conform well with ISO9126(1992) standards of Good Programming Practices, future maintenance of the Objective-C's calculators will be easier than the auto generated Java code of 480 lines. Java/NetBeans creates 905\% more code for it's auto generated calculator and 118\% more for the hand written code. The reasons for these are outlined in Section \ref{sub:results}.
 
-Objective-C allows for the multiple use of instance variable names which allows for greater code flexibility when creating dynamic object instances such as buttons. Java insisted I create each object instance with a unique name. 
-Creating a button in Objective-C entailed one method as Listing \ref{generateButtonObj}. When called by the class it instantiated an instance of NSButton, added all the required properties to initialize the button and was added to the view.
+\subsection{Results} % (fold)
+\label{sub:results}
+
+% subsection results (end)
+Objective-C allows for the multiple use of instance variable names which allows for greater code flexibility when creating dynamic object instances such as buttons. Java insists on creating each object instance with a unique name. Creating a button in Objective-C entailed one method as Listing \ref{generateButtonObj}. When called by the class it instantiated an instance of NSButton, added all the required properties to initialize the button and was added to the view. Further evidence of this can be seen in Figure \ref{fig:classDiagrams} which shows class diagrams for each program. Clearly shown the Calculator created with the assistance of XCodes Interface Builder creates the most succinct class diagram. It also generates the cleanest simplest code from which to extend.
  
 \begin{lstlisting}[caption={Create Button - Objective-C},language=C,label=generateButtonObj,]
 - (void)generateButtons:(NSView *)newView withButtonWidth:(int)buttonWidth andbuttonHeight:(int)buttonHeight andWhiteSpace:(int)whiteSpace withXPos:(int)xPos andYPos:(int)yPos withAdder:(int)adder andValue:(NSString *)stringVal
@@ -328,7 +333,9 @@ Creating a button in Objective-C entailed one method as Listing \ref{generateBut
 }
 \end{lstlisting}
 Alternatively Java instead of a single method as seen above to create the required buttons for the keypad, Java required three separate methods and an array declaration as an additional class field.
-First a method to add a button similar to the Objective-C method of generateButton. The method shown in Listing \ref{addButtonJava} emphasizes the differences. An array of Strings was required for the instance name and syntactically the code is far more verbose. Due to the necessity of requiring additional methods to create my keypad I was required to return the button created out of this method for use by another method that added the object to the view, titles \textbf{layOutButtons}, seen in Listing \ref{layOutButtons}.\newpage
+First a method to add a button similar to the Objective-C method of generateButton. The method shown in Listing \ref{addButtonJava} emphasizes the differences. An array of Strings was required for the instance name and syntactically the code is far more verbose. Due to the necessity of requiring additional methods to create my keypad I was required to return the button created out of this method for use by another method that added the object to the view, titles \textbf{layOutButtons}, seen in Listing \ref{layOutButtons}.
+This is due to the fact that Objective-C is creating a pointer to the referenced object created as the property, for example the button is allocated on the heap, so creating objects dynamically in a for loop simply points to a new memory location on the heap each time a button is created. Where any object defined outside a method in Java becomes a field of the class and declared on the stack as opposed to the heap.
+
 \begin{lstlisting}[caption={Create Button - Java},language=Java,label=addButtonJava,]
 public JButton addButton(int xPos, int yPos, int count, int i)
    {
@@ -362,6 +369,16 @@ public  void layOutButtons(JFrame cn)
        cn.add(addExpression(200, 300, "AC", 0));
    }
 \end{lstlisting}
+Since Objective-C combines both attributes of Static and Dynamic typing, objects can be anonymous at creation and managed at run time, as opposed to Java where the compiler is more conservative and will cause an error to ensure no run time problem arises. Cocoa's Event Handling responds differently to Java there by receiving the id of the sender from the object where the event occurred instead of implicitly sending a message saying this button was pressed. In a sense the View checks which objects was within the bounds of the event instead of Java's reacting to the touch/selection of an object on the JPanel or JContainer. Simply put, Cocoa sends the (id) of whatever object was pressed to it's Responder (event listener) from there the object can be cast into a temporary object, whereas in Java we are required to get the source of the touched object that is passed from the event handler.
+
+Further evidence of extraneous bloated code generated by the GUI builder in Java and the extra code required for the hand coded version can be seen in Figure \ref{fig:classDiagrams} which shows class diagrams for each program. Clearly the Calculator created with the assistance of XCodes Interface Builder creates the most succinct class diagram. It also generates the cleanest simplest code from which to extend. What makes this extra code more unique in the NetBeans IDE is that it is not editable and any changes must be made through the Design View.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.75]{ClassDiagrams.eps}
+\caption{Class Diagram Comparison}
+\label{fig:classDiagrams}
+\end{figure}
 % subsection simple_calculator (end)
 % section graphic_user_interface_architecture (end)
 

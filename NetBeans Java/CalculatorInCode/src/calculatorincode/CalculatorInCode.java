@@ -67,19 +67,15 @@ public class CalculatorInCode {
    
    public JButton addButton(int xPos, int yPos, int count, int i)
    {
-        
         btnKeyPad[i] = new JButton(""+count);
         btnKeyPad[i].setSize(47, 38);
         btnKeyPad[i].setLocation(xPos,yPos);
         btnKeyPad[i].addMouseListener(new java.awt.event.MouseAdapter() {
-
             @Override
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 digitPressed(evt);
             }
-        });
-        
-        
+        });              
         return btnKeyPad[i];
    }
  
