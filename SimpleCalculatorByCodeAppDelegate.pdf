@@ -1,0 +1,3134 @@
+%PDF-1.3
+%âãÏÓ
+2 0 obj
+<<
+/Length 2783
+>>
+stream
+0 G
+0 J 0 j 0.1 w 10 M []0 d
+/GS1 gs
+1 i 
+571 421 m
+60 421 l
+S
+0.95 g
+42 818 18 -794 re
+f
+0.7 g
+24 96 36 -72 re
+f
+BT
+/TT2 1 Tf
+0 12 -12 0 40 38.666 Tm
+0 g
+0 Tc
+0 Tw
+(11/15/11)Tj
+-0.0552 -1.0667 TD
+(12:31:50)Tj
+ET
+0.7 g
+24 818 36 -72 re
+f
+BT
+/TT4 1 Tf
+0 28.8 -28.8 0 52.8 773.9915 Tm
+1 g
+(1)Tj
+/TT6 1 Tf
+0 14 -14 0 55.5 321.2637 Tm
+0 g
+(SimpleCalculatorByCode-Info.plist)Tj
+-3.2622 1.2857 TD
+(Objective C Calculator: Code - WBuchner 6643140)Tj
+/TT8 1 Tf
+0 7 -7 0 70 46.8 Tm
+[(1:)-599.8(<?xml version=)]TJ
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+10.2 0 TD
+("1.0")Tj
+/TT8 1 Tf
+0 g
+3 0 TD
+( encoding=)Tj
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+6 0 TD
+("UTF-8")Tj
+/TT8 1 Tf
+0 g
+4.2 0 TD
+(?>)Tj
+-23.4 -1.1429 TD
+[(2:)-599.8(<!DOCTYPE plist PUBLIC )]TJ
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+15.6 0 TD
+("-//Apple//DTD PLIST 1.0//EN")Tj
+/TT8 1 Tf
+0 g
+17.4 0 TD
+( )Tj
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+0.6 0 TD
+("http://www.apple.com/DTDs/Prop)Tj
+-36.1429 -1.1429 TD
+(ertyList-1.0.dtd")Tj
+/TT8 1 Tf
+0 g
+10.2 0 TD
+(>)Tj
+-7.6571 -1.1429 TD
+[(3:)-599.8(<plist version=)]TJ
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+10.8 0 TD
+("1.0")Tj
+/TT8 1 Tf
+0 g
+3 0 TD
+(>)Tj
+-13.8 -1.1429 TD
+[(4:)-599.8(<dict>)]TJ
+T*
+[(5:)-599.8(    <key>CFBundleDevelopmentRegion</key>)]TJ
+T*
+[(6:)-599.8(    <string>en</string>)]TJ
+T*
+[(7:)-599.8(    <key>CFBundleExecutable</key>)]TJ
+T*
+[(8:)-599.8(    <string>${EXECUTABLE_NAME}</string>)]TJ
+T*
+[(9:)-599.8(    <key>CFBundleIconFile</key>)]TJ
+-0.6 -1.1429 TD
+[(10:)-599.7(    <string></string>)]TJ
+T*
+[(11:)-599.7(    <key>CFBundleIdentifier</key>)]TJ
+T*
+[(12:)-599.7(    <string>com.waybu.${PRODUCT_NAME:rfc1034identifier}</string>)]TJ
+T*
+[(13:)-599.7(    <key>CFBundleInfoDictionaryVersion</key>)]TJ
+T*
+[(14:)-599.7(    <string>6.0</string>)]TJ
+T*
+[(15:)-599.7(    <key>CFBundleName</key>)]TJ
+T*
+[(16:)-599.7(    <string>${PRODUCT_NAME}</string>)]TJ
+T*
+[(17:)-599.7(    <key>CFBundlePackageType</key>)]TJ
+T*
+[(18:)-599.7(    <string>APPL</string>)]TJ
+T*
+[(19:)-599.7(    <key>CFBundleShortVersionString</key>)]TJ
+T*
+[(20:)-599.7(    <string>1.0</string>)]TJ
+T*
+[(21:)-599.7(    <key>CFBundleSignature</key>)]TJ
+T*
+[(22:)-599.7(    <string>????</string>)]TJ
+T*
+[(23:)-599.7(    <key>CFBundleVersion</key>)]TJ
+T*
+[(24:)-599.7(    <string>1</string>)]TJ
+T*
+[(25:)-599.7(    <key>LSMinimumSystemVersion</key>)]TJ
+T*
+[(26:)-599.7(    <string>${MACOSX_DEPLOYMENT_TARGET}</string>)]TJ
+T*
+[(27:)-599.7(    <key>NSHumanReadableCopyright</key>)]TJ
+T*
+[(28:)-599.7(    <string>Copyright Â© 2011 __MyCompanyName__. All rights reserved.</string>)]TJ
+T*
+[(29:)-599.7(    <key>NSMainNibFile</key>)]TJ
+T*
+[(30:)-599.7(    <string>MainMenu</string>)]TJ
+T*
+[(31:)-599.7(    <key>NSPrincipalClass</key>)]TJ
+T*
+[(32:)-599.7(    <string>NSApplication</string>)]TJ
+T*
+[(33:)-599.7(</dict>)]TJ
+T*
+[(34:)-599.7(</plist>)]TJ
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT10 8 0 R
+>>
+/ExtGState <<
+/GS1 9 0 R
+>>
+>>
+endobj
+12 0 obj
+<<
+/Length 1102
+>>
+stream
+0 G
+0 J 0 j 0.1 w 10 M []0 d
+/GS1 gs
+1 i 
+571 421 m
+60 421 l
+S
+0.95 g
+42 818 18 -794 re
+f
+0.7 g
+24 96 36 -72 re
+f
+BT
+/TT2 1 Tf
+0 12 -12 0 40 38.666 Tm
+0 g
+0 Tc
+0 Tw
+(11/15/11)Tj
+-0.0552 -1.0667 TD
+(12:31:50)Tj
+ET
+0.7 g
+24 818 36 -72 re
+f
+BT
+/TT4 1 Tf
+0 28.8 -28.8 0 52.8 773.9915 Tm
+1 g
+(1)Tj
+/TT6 1 Tf
+0 14 -14 0 55.5 317.7705 Tm
+0 g
+(SimpleCalculatorByCode-Prefix.pch)Tj
+-3.0127 1.2857 TD
+(Objective C Calculator: Code - WBuchner 6643140)Tj
+/TT8 1 Tf
+0 7 -7 0 70 46.8 Tm
+(1:)Tj
+/TT12 1 Tf
+0.698 0.133 0.133 rg
+1.8 0 TD
+(//)Tj
+/TT8 1 Tf
+-1.8 -1.1429 TD
+(2:)Tj
+/TT12 1 Tf
+1.8 0 TD
+(// Prefix header for all source files of the ’SimpleCalculatorByCode’ target in the )Tj
+-4.3429 -1.1429 TD
+(’SimpleCalculatorByCode’ project)Tj
+/TT8 1 Tf
+2.5429 -1.1429 TD
+(3:)Tj
+/TT12 1 Tf
+1.8 0 TD
+(//)Tj
+/TT8 1 Tf
+-1.8 -1.1429 TD
+(4:)Tj
+0 g
+T*
+[(5:)-599.8(#)]TJ
+/TT10 1 Tf
+0.373 0.62 0.627 rg
+2.4 0 TD
+(ifdef)Tj
+/TT8 1 Tf
+0 g
+3 0 TD
+( )Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(__OBJC__)Tj
+0 g
+-6 -1.1429 TD
+[(6:)-599.8(    #import <Cocoa/Cocoa.h>)]TJ
+T*
+[(7:)-599.8(#)]TJ
+/TT10 1 Tf
+0.373 0.62 0.627 rg
+2.4 0 TD
+(endif)Tj
+ET
+endstream
+endobj
+13 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT10 8 0 R
+/TT12 14 0 R
+>>
+/ExtGState <<
+/GS1 9 0 R
+>>
+>>
+endobj
+16 0 obj
+<<
+/Length 6882
+>>
+stream
+0 G
+0 J 0 j 0.1 w 10 M []0 d
+/GS1 gs
+1 i 
+571 421 m
+60 421 l
+S
+0.95 g
+42 818 18 -794 re
+f
+0.7 g
+24 96 36 -72 re
+f
+BT
+/TT2 1 Tf
+0 12 -12 0 40 38.666 Tm
+0 g
+0 Tc
+0 Tw
+(11/19/11)Tj
+-0.0552 -1.0667 TD
+(16:09:05)Tj
+ET
+0.7 g
+24 818 36 -72 re
+f
+BT
+/TT4 1 Tf
+0 28.8 -28.8 0 52.8 773.9915 Tm
+1 g
+(1)Tj
+/TT6 1 Tf
+0 14 -14 0 55.5 306.8877 Tm
+0 g
+(SimpleCalculatorByCodeAppDelegate.h)Tj
+-2.2353 1.2857 TD
+(Objective C Calculator: Code - WBuchner 6643140)Tj
+/TT8 1 Tf
+0 7 -7 0 70 46.8 Tm
+[(1:)-599.8(#)]TJ
+/TT10 1 Tf
+0.373 0.62 0.627 rg
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+0 g
+3.6 0 TD
+( <)Tj
+0.722 0.525 0.043 rg
+1.2 0 TD
+(Cocoa)Tj
+0 g
+3 0 TD
+(/)Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(Cocoa)Tj
+0 g
+3 0 TD
+(.)Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(h)Tj
+0 g
+0.6 0 TD
+(>)Tj
+-15 -1.1429 TD
+(2:)Tj
+T*
+[(3:)-599.8(@)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(interface)Tj
+/TT8 1 Tf
+0 g
+5.4 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(SimpleCalculatorByCodeAppDelegate)Tj
+/TT8 1 Tf
+0 g
+19.8 0 TD
+( : )Tj
+/TT10 1 Tf
+0 0 1 rg
+1.8 0 TD
+(NSObject)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+( <)Tj
+/TT10 1 Tf
+0 0 1 rg
+1.2 0 TD
+(NSApplicationDelegate)Tj
+/TT8 1 Tf
+0 g
+12.6 0 TD
+(> {)Tj
+-48.6 -1.1429 TD
+[(4:)-599.8(    NSWindow *_window;)]TJ
+T*
+[(5:)-599.8(    NSTextField *_display;)]TJ
+T*
+[(6:)-599.8(    )]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.2 0 TD
+(double)Tj
+/TT8 1 Tf
+0 g
+3.6 0 TD
+( operandOne;)Tj
+-7.8 -1.1429 TD
+[(7:)-599.8(    )]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.2 0 TD
+(double)Tj
+/TT8 1 Tf
+0 g
+3.6 0 TD
+( operandTwo;)Tj
+-7.8 -1.1429 TD
+[(8:)-599.8(    )]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+4.2 0 TD
+(BOOL)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(   operationPressed;)Tj
+-6.6 -1.1429 TD
+[(9:)-599.8(    NSString * operator;)]TJ
+-0.6 -1.1429 TD
+[(10:)-599.7(})]TJ
+T*
+(11:)Tj
+T*
+[(12:)-599.7(@)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+3 0 TD
+(property)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+( \()Tj
+/TT10 1 Tf
+0 0 1 rg
+1.2 0 TD
+(strong)Tj
+/TT8 1 Tf
+0 g
+3.6 0 TD
+(\) IBOutlet NSWindow *window;)Tj
+-12.6 -1.1429 TD
+[(13:)-599.7(@)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+3 0 TD
+(property)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+( \()Tj
+/TT10 1 Tf
+0 0 1 rg
+1.2 0 TD
+(retain)Tj
+/TT8 1 Tf
+0 g
+3.6 0 TD
+(, )Tj
+/TT10 1 Tf
+0 0 1 rg
+1.2 0 TD
+(readwrite)Tj
+/TT8 1 Tf
+0 g
+5.4 0 TD
+(\) IBOutlet NSTextField *display;)Tj
+-19.2 -1.1429 TD
+(14:)Tj
+T*
+[(15:)-599.7(- \()]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.2 0 TD
+(IBAction)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(\))Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(clear)Tj
+/TT8 1 Tf
+0 g
+3 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(id)Tj
+/TT8 1 Tf
+0 g
+1.2 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(sender)Tj
+0 g
+3.6 0 TD
+(;)Tj
+-19.2 -1.1429 TD
+[(16:)-599.7(- \()]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.2 0 TD
+(IBAction)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(\))Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(digitPressed)Tj
+/TT8 1 Tf
+0 g
+7.2 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(id)Tj
+/TT8 1 Tf
+0 g
+1.2 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(sender)Tj
+0 g
+3.6 0 TD
+(;)Tj
+-23.4 -1.1429 TD
+[(17:)-599.7(- \()]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.2 0 TD
+(IBAction)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(\))Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(operationPressed)Tj
+/TT8 1 Tf
+0 g
+9.6 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(id)Tj
+/TT8 1 Tf
+0 g
+1.2 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(sender)Tj
+0 g
+3.6 0 TD
+(;)Tj
+-25.8 -1.1429 TD
+[(18:)-599.7(- \()]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.2 0 TD
+(double)Tj
+/TT8 1 Tf
+0 g
+3.6 0 TD
+(\))Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(performOperation)Tj
+/TT8 1 Tf
+0 g
+9.6 0 TD
+(;)Tj
+-18 -1.1429 TD
+[(19:)-599.7(- \()]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.2 0 TD
+(void)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(\))Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(generateButtons)Tj
+/TT8 1 Tf
+0 g
+9 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(NSView *)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(newView)Tj
+0 g
+4.2 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(withButtonWidth)Tj
+/TT8 1 Tf
+0 g
+9 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(buttonWidth)Tj
+0 g
+6.6 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(andbutton)Tj
+-49.3429 -1.1429 TD
+(Height)Tj
+/TT8 1 Tf
+0 g
+3.6 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(buttonHeight)Tj
+0 g
+7.2 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(andWhiteSpace)Tj
+/TT8 1 Tf
+0 g
+7.8 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(whiteSpace)Tj
+0 g
+6 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(andYPos)Tj
+/TT8 1 Tf
+0 g
+4.2 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(yPos)Tj
+0 g
+2.4 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(withAdder)Tj
+/TT8 1 Tf
+0 g
+5.4 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(adde)Tj
+-52.8 -1.1429 TD
+(r)Tj
+0 g
+0.6 0 TD
+(;)Tj
+1.3429 -1.1429 TD
+[(20:)-599.7(- \()]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.2 0 TD
+(void)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(\))Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(generateButtons)Tj
+/TT8 1 Tf
+0 g
+9 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(NSView *)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(newView)Tj
+0 g
+4.2 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(withButtonWidth)Tj
+/TT8 1 Tf
+0 g
+9 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(buttonWidth)Tj
+0 g
+6.6 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(andbutton)Tj
+-49.3429 -1.1429 TD
+(Height)Tj
+/TT8 1 Tf
+0 g
+3.6 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(buttonHeight)Tj
+0 g
+7.2 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(andWhiteSpace)Tj
+/TT8 1 Tf
+0 g
+7.8 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(whiteSpace)Tj
+0 g
+6 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(withXPos)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(xPos)Tj
+0 g
+2.4 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(andYPos)Tj
+/TT8 1 Tf
+0 g
+4.2 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(yPos)Tj
+0 g
+2.4 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+-54.6 -1.1429 TD
+(withAdder)Tj
+/TT8 1 Tf
+0 g
+5.4 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(adder)Tj
+0 g
+3 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(andValue)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(NSString *)Tj
+/TT8 1 Tf
+0 g
+6 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(stringVal)Tj
+0 g
+5.4 0 TD
+(;)Tj
+-28.6571 -1.1429 TD
+[(21:)-599.7(@)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+3 0 TD
+(end)Tj
+ET
+endstream
+endobj
+17 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT10 8 0 R
+>>
+/ExtGState <<
+/GS1 9 0 R
+>>
+>>
+endobj
+19 0 obj
+<<
+/Length 17968
+>>
+stream
+0 G
+0 J 0 j 0.1 w 10 M []0 d
+/GS1 gs
+1 i 
+571 421 m
+60 421 l
+S
+0.95 g
+42 818 18 -794 re
+f
+0.7 g
+24 96 36 -72 re
+f
+BT
+/TT2 1 Tf
+0 12 -12 0 40 38.666 Tm
+0 g
+0 Tc
+0 Tw
+(11/19/11)Tj
+-0.0552 -1.0667 TD
+(16:29:17)Tj
+ET
+0.7 g
+24 818 36 -72 re
+f
+BT
+/TT4 1 Tf
+0 28.8 -28.8 0 52.8 773.9915 Tm
+1 g
+(1)Tj
+/TT6 1 Tf
+0 14 -14 0 55.5 304.9429 Tm
+0 g
+(SimpleCalculatorByCodeAppDelegate.m)Tj
+-2.0964 1.2857 TD
+(Objective C Calculator: Code - WBuchner 6643140)Tj
+/TT8 1 Tf
+0 7 -7 0 70 46.8 Tm
+[(1:)-599.8(#)]TJ
+/TT10 1 Tf
+0.373 0.62 0.627 rg
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+0.6 0 TD
+("SimpleCalculatorByCodeAppDelegate.h")Tj
+/TT8 1 Tf
+0 g
+-6.6 -1.1429 TD
+(2:)Tj
+T*
+[(3:)-599.8(@)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(implementation)Tj
+/TT8 1 Tf
+0 g
+8.4 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(SimpleCalculatorByCodeAppDelegate)Tj
+/TT8 1 Tf
+0 g
+-11.4 -1.1429 TD
+(4:)Tj
+T*
+[(5:)-599.8(@)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(synthesize)Tj
+/TT8 1 Tf
+0 g
+6 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(window)Tj
+/TT8 1 Tf
+0 g
+3.6 0 TD
+( = _window;)Tj
+-12.6 -1.1429 TD
+[(6:)-599.8(@)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(synthesize)Tj
+/TT8 1 Tf
+0 g
+6 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(display)Tj
+/TT8 1 Tf
+0 g
+4.2 0 TD
+( = _display;)Tj
+-13.2 -1.1429 TD
+(7:)Tj
+T*
+[(8:)-599.8(- \()]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+3.6 0 TD
+(void)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(\))Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(applicationDidFinishLaunching)Tj
+/TT8 1 Tf
+0 g
+17.4 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(NSNotification *)Tj
+/TT8 1 Tf
+0 g
+9.6 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(aNotification)Tj
+0 g
+-35.4 -1.1429 TD
+[(9:)-599.8({)]TJ
+-0.6 -1.1429 TD
+(10:)Tj
+T*
+[(11:)-599.7(    NSView *newView = [[[NSView alloc] initWithFrame:NSRectFromCGRect\(CGRectMake\(0, )]TJ
+-1.9429 -1.1429 TD
+(0, 500, 500 \)\)]autorelease];)Tj
+1.9429 -1.1429 TD
+[(12:)-599.7(    [)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+5.4 0 TD
+(self)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(.window setContentView:newView];)Tj
+-7.8 -1.1429 TD
+(13:)Tj
+T*
+[(14:)-599.7(    )]TJ
+/TT12 1 Tf
+0.698 0.133 0.133 rg
+4.8 0 TD
+(// Create the calculator)Tj
+/TT8 1 Tf
+-4.8 -1.1429 TD
+(15:)Tj
+0 g
+2.4 0 TD
+(    )Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+2.4 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+( whiteSpace = 50;)Tj
+-6.6 -1.1429 TD
+[(16:)-599.7(    )]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.8 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+( yPos = 100;)Tj
+-6.6 -1.1429 TD
+[(17:)-599.7(    )]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.8 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+( buttonWidth = 49;)Tj
+-6.6 -1.1429 TD
+[(18:)-599.7(    )]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.8 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+( buttonHeight = 37;)Tj
+-6.6 -1.1429 TD
+[(19:)-599.7(    )]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.8 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+( loopAdder = 0;)Tj
+-6.6 -1.1429 TD
+[(20:)-599.7(    NSArray *buttonTitles = [[[NSArray alloc] initWithObjects:@)]TJ
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+40.2 0 TD
+("=")Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(,@)Tj
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+1.2 0 TD
+("-")Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(,@)Tj
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+1.2 0 TD
+("+")Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(,)Tj
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(nil)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(]aut)Tj
+-52.3429 -1.1429 TD
+(orelease];)Tj
+1.9429 -1.1429 TD
+[(21:)-599.7(    )]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(for)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+( \()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+( i = 0; i < 3; i++\) {)Tj
+-9.6 -1.1429 TD
+[(22:)-599.7(        [)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+7.8 0 TD
+(self)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+( generateButtons:newView )Tj
+-10.2 -1.1429 TD
+[(23:)-599.7(              )]TJ
+/TT10 1 Tf
+0.373 0.62 0.627 rg
+10.8 0 TD
+(withButtonWidth)Tj
+/TT8 1 Tf
+0 g
+9 0 TD
+(:buttonWidth )Tj
+-19.8 -1.1429 TD
+[(24:)-599.7(              )]TJ
+/TT10 1 Tf
+0.373 0.62 0.627 rg
+10.8 0 TD
+(andbuttonHeight)Tj
+/TT8 1 Tf
+0 g
+9 0 TD
+(:buttonHeight )Tj
+-19.8 -1.1429 TD
+[(25:)-599.7(                )]TJ
+/TT10 1 Tf
+0.373 0.62 0.627 rg
+12 0 TD
+(andWhiteSpace)Tj
+/TT8 1 Tf
+0 g
+7.8 0 TD
+(:whiteSpace )Tj
+-19.8 -1.1429 TD
+[(26:)-599.7(                      )]TJ
+/TT10 1 Tf
+0.373 0.62 0.627 rg
+15.6 0 TD
+(andYPos)Tj
+/TT8 1 Tf
+0 g
+4.2 0 TD
+(:yPos withAdder:loopAdder];)Tj
+-19.8 -1.1429 TD
+[(27:)-599.7(        )]TJ
+T*
+[(28:)-599.7(        [)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+7.8 0 TD
+(self)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+( generateButtons:newView )Tj
+-10.2 -1.1429 TD
+[(29:)-599.7(              )]TJ
+/TT10 1 Tf
+0.373 0.62 0.627 rg
+10.8 0 TD
+(withButtonWidth)Tj
+/TT8 1 Tf
+0 g
+9 0 TD
+(:buttonWidth )Tj
+-19.8 -1.1429 TD
+[(30:)-599.7(              )]TJ
+/TT10 1 Tf
+0.373 0.62 0.627 rg
+10.8 0 TD
+(andbuttonHeight)Tj
+/TT8 1 Tf
+0 g
+9 0 TD
+(:buttonHeight )Tj
+-19.8 -1.1429 TD
+[(31:)-599.7(                )]TJ
+/TT10 1 Tf
+0.373 0.62 0.627 rg
+12 0 TD
+(andWhiteSpace)Tj
+/TT8 1 Tf
+0 g
+7.8 0 TD
+(:whiteSpace )Tj
+-19.8 -1.1429 TD
+[(32:)-599.7(                     )]TJ
+/TT10 1 Tf
+0.373 0.62 0.627 rg
+15 0 TD
+(withXPos)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(:300 )Tj
+-19.8 -1.1429 TD
+[(33:)-599.7(                      )]TJ
+/TT10 1 Tf
+0.373 0.62 0.627 rg
+15.6 0 TD
+(andYPos)Tj
+/TT8 1 Tf
+0 g
+4.2 0 TD
+(:yPos )Tj
+-19.8 -1.1429 TD
+[(34:)-599.7(                    )]TJ
+/TT10 1 Tf
+0.373 0.62 0.627 rg
+14.4 0 TD
+(withAdder)Tj
+/TT8 1 Tf
+0 g
+5.4 0 TD
+(:0 )Tj
+-19.8 -1.1429 TD
+[(35:)-599.7(                     )]TJ
+/TT10 1 Tf
+0.373 0.62 0.627 rg
+15 0 TD
+(andValue)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(:[buttonTitles objectAtIndex:i]];)Tj
+-19.8 -1.1429 TD
+[(36:)-599.7(        yPos = yPos+50;)]TJ
+T*
+[(37:)-599.7(        loopAdder = loopAdder+3;)]TJ
+T*
+[(38:)-599.7(    })]TJ
+T*
+(39:)Tj
+T*
+[(40:)-599.7(    )]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(self)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(.display = [[[NSTextField alloc] initWithFrame:NSRectFromCGRect\(CGRectMake\(2)Tj
+-9.1429 -1.1429 TD
+(0, )Tj
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(self)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(.window.frame.size.height-120, )Tj
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+18.6 0 TD
+(self)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(.window.frame.size.width-40, 80\)\)]autorelease];)Tj
+-23.2571 -1.1429 TD
+[(41:)-599.7(    [)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+5.4 0 TD
+(self)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(.display setStringValue:@)Tj
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+15 0 TD
+("0")Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(];)Tj
+-24.6 -1.1429 TD
+[(42:)-599.7(    [)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+5.4 0 TD
+(self)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(.display.cell setFont:[NSFont fontWithName:@)Tj
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+26.4 0 TD
+("Arial")Tj
+/TT8 1 Tf
+0 g
+4.2 0 TD
+( size:47]];)Tj
+-38.4 -1.1429 TD
+[(43:)-599.7(    [)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+5.4 0 TD
+(self)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(.display.cell setAlignment:NSRightTextAlignment];)Tj
+-7.8 -1.1429 TD
+[(44:)-599.7(    [newView addSubview:)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+16.8 0 TD
+(self)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(.display];)Tj
+-19.2 -1.1429 TD
+[(45:)-599.7(})]TJ
+T*
+(46:)Tj
+T*
+[(47:)-599.7(- \()]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.2 0 TD
+(void)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(\))Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(generateButtons)Tj
+/TT8 1 Tf
+0 g
+9 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(NSView *)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(newView)Tj
+0 g
+4.2 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(withButtonWidth)Tj
+/TT8 1 Tf
+0 g
+9 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(buttonWidth)Tj
+0 g
+6.6 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(andbutton)Tj
+-49.3429 -1.1429 TD
+(Height)Tj
+/TT8 1 Tf
+0 g
+3.6 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(buttonHeight)Tj
+0 g
+7.2 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(andWhiteSpace)Tj
+/TT8 1 Tf
+0 g
+7.8 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(whiteSpace)Tj
+0 g
+6 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(andYPos)Tj
+/TT8 1 Tf
+0 g
+4.2 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(yPos)Tj
+0 g
+2.4 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(withAdder)Tj
+/TT8 1 Tf
+0 g
+5.4 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(adde)Tj
+-52.8 -1.1429 TD
+(r)Tj
+0 g
+1.9429 -1.1429 TD
+[(48:)-599.7({)]TJ
+T*
+[(49:)-599.7(    NSButton *button = [[[NSButton alloc] initWithFrame:NSRectFromCGRect\(CGRectMake\()]TJ
+-1.9429 -1.1429 TD
+(buttonWidth + whiteSpace, 50 , buttonWidth, buttonHeight\)\) ]autorelease];)Tj
+1.9429 -1.1429 TD
+[(50:)-599.7(    [button setTitle:@)]TJ
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+15.6 0 TD
+("0")Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(];)Tj
+-17.4 -1.1429 TD
+[(51:)-599.7(    [newView addSubview:button];)]TJ
+T*
+[(52:)-599.7(    [button setAction:@)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+16.2 0 TD
+(selector)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(\()Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(digitPressed)Tj
+/TT8 1 Tf
+0 g
+7.2 0 TD
+(:\)];)Tj
+-28.8 -1.1429 TD
+[(53:)-599.7(    )]TJ
+T*
+[(54:)-599.7(    NSButton *decButton = [[[NSButton alloc] initWithFrame:NSRectFromCGRect\(CGRectMa)]TJ
+-1.9429 -1.1429 TD
+(ke\(\(buttonWidth *2\)+\(20 + whiteSpace\), 50 , buttonWidth, buttonHeight\)\) ]autorelease];)Tj
+1.9429 -1.1429 TD
+[(55:)-599.7(    [decButton setTitle:@)]TJ
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+17.4 0 TD
+(".")Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(];)Tj
+-19.2 -1.1429 TD
+[(56:)-599.7(    [newView addSubview:decButton];)]TJ
+56.7143 70.8571 TD
+[(57:)-599.7(    [decButton setAction:@)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+18 0 TD
+(selector)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(\()Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(digitPressed)Tj
+/TT8 1 Tf
+0 g
+7.2 0 TD
+(:\)];)Tj
+-30.6 -1.1429 TD
+[(58:)-599.7(    )]TJ
+T*
+[(59:)-599.7(    )]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(for)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+( \()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+( i = 1; i < 4; i++\) {)Tj
+-9.6 -1.1429 TD
+[(60:)-599.7(        )]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(if)Tj
+/TT8 1 Tf
+0 g
+1.2 0 TD
+( \(i == 1\) {)Tj
+-8.4 -1.1429 TD
+[(61:)-599.7(            NSButton *button = [[[NSButton alloc] initWithFrame:NSRectFromCGRect\(CGR)]TJ
+-1.9429 -1.1429 TD
+(ectMake\(buttonWidth + whiteSpace, yPos , buttonWidth, buttonHeight\)\) ]autorelease];)Tj
+1.9429 -1.1429 TD
+[(62:)-599.7(            [button setTitle:[[[NSString alloc] initWithFormat:@)]TJ
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+40.8 0 TD
+("%i")Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(,i + adder]autor)Tj
+-45.1429 -1.1429 TD
+(elease]];)Tj
+1.9429 -1.1429 TD
+[(63:)-599.7(            [newView addSubview:button];)]TJ
+T*
+[(64:)-599.7(            [button setAction:@)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+21 0 TD
+(selector)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(\()Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(digitPressed)Tj
+/TT8 1 Tf
+0 g
+7.2 0 TD
+(:\)];)Tj
+-33.6 -1.1429 TD
+[(65:)-599.7(        })]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+7.8 0 TD
+(else)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+( )Tj
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(if)Tj
+/TT8 1 Tf
+0 g
+1.2 0 TD
+( \( i == 2 \){)Tj
+-12 -1.1429 TD
+[(66:)-599.7(            NSButton *button = [[[NSButton alloc] initWithFrame:NSRectFromCGRect\(CGR)]TJ
+-1.9429 -1.1429 TD
+(ectMake\(\(buttonWidth *2\)+\(20 + whiteSpace\), yPos , buttonWidth, buttonHeight\)\) ]autorelease])Tj
+T*
+(;)Tj
+1.9429 -1.1429 TD
+[(67:)-599.7(            [button setTitle:[[[NSString alloc] initWithFormat:@)]TJ
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+40.8 0 TD
+("%i")Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(,i+ adder]autore)Tj
+-45.1429 -1.1429 TD
+(lease]];)Tj
+1.9429 -1.1429 TD
+[(68:)-599.7(            [newView addSubview:button];)]TJ
+T*
+[(69:)-599.7(            [button setAction:@)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+21 0 TD
+(selector)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(\()Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(digitPressed)Tj
+/TT8 1 Tf
+0 g
+7.2 0 TD
+(:\)];)Tj
+-33.6 -1.1429 TD
+[(70:)-599.7(        })]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+7.8 0 TD
+(else)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+( )Tj
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(if)Tj
+/TT8 1 Tf
+0 g
+1.2 0 TD
+( \( i == 3 \){)Tj
+-12 -1.1429 TD
+[(71:)-599.7(            NSButton *button = [[[NSButton alloc] initWithFrame:NSRectFromCGRect\(CGR)]TJ
+-1.9429 -1.1429 TD
+(ectMake\(\(buttonWidth *3\)+\(40 + whiteSpace\), yPos , buttonWidth, buttonHeight\)\) ]autorelease])Tj
+T*
+(;)Tj
+1.9429 -1.1429 TD
+[(72:)-599.7(            [button setTitle:[[[NSString alloc] initWithFormat:@)]TJ
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+40.8 0 TD
+("%i")Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(,i+ adder]autore)Tj
+-45.1429 -1.1429 TD
+(lease]];)Tj
+1.9429 -1.1429 TD
+[(73:)-599.7(            [newView addSubview:button];)]TJ
+T*
+[(74:)-599.7(            [button setAction:@)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+21 0 TD
+(selector)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(\()Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(digitPressed)Tj
+/TT8 1 Tf
+0 g
+7.2 0 TD
+(:\)];)Tj
+-33.6 -1.1429 TD
+[(75:)-599.7(        })]TJ
+T*
+[(76:)-599.7(    })]TJ
+T*
+[(77:)-599.7(})]TJ
+T*
+(78:)Tj
+T*
+[(79:)-599.7(- \()]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.2 0 TD
+(void)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(\))Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(generateButtons)Tj
+/TT8 1 Tf
+0 g
+9 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(NSView *)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(newView)Tj
+0 g
+4.2 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(withButtonWidth)Tj
+/TT8 1 Tf
+0 g
+9 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(buttonWidth)Tj
+0 g
+6.6 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(andbutton)Tj
+-49.3429 -1.1429 TD
+(Height)Tj
+/TT8 1 Tf
+0 g
+3.6 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(buttonHeight)Tj
+0 g
+7.2 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(andWhiteSpace)Tj
+/TT8 1 Tf
+0 g
+7.8 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(whiteSpace)Tj
+0 g
+6 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(withXPos)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(xPos)Tj
+0 g
+2.4 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(andYPos)Tj
+/TT8 1 Tf
+0 g
+4.2 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(yPos)Tj
+0 g
+2.4 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+-54.6 -1.1429 TD
+(withAdder)Tj
+/TT8 1 Tf
+0 g
+5.4 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(adder)Tj
+0 g
+3 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(andValue)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(NSString *)Tj
+/TT8 1 Tf
+0 g
+6 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(stringVal)Tj
+0 g
+-23.2571 -1.1429 TD
+[(80:)-599.7({)]TJ
+T*
+[(81:)-599.7(    NSButton *button = [[[NSButton alloc] initWithFrame:NSRectFromCGRect\(CGRectMake\()]TJ
+-1.9429 -1.1429 TD
+(xPos, yPos , buttonWidth, buttonHeight\)\) ]autorelease];)Tj
+1.9429 -1.1429 TD
+[(82:)-599.7(    [button setTitle:stringVal];)]TJ
+T*
+[(83:)-599.7(    [newView addSubview:button];)]TJ
+T*
+[(84:)-599.7(    [button setAction:@)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+16.2 0 TD
+(selector)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(\()Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(operationPressed)Tj
+/TT8 1 Tf
+0 g
+9.6 0 TD
+(:\)];)Tj
+-31.2 -1.1429 TD
+[(85:)-599.7(})]TJ
+T*
+(86:)Tj
+T*
+[(87:)-599.7(- \()]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.2 0 TD
+(IBAction)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(\))Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(clear)Tj
+/TT8 1 Tf
+0 g
+3 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(id)Tj
+/TT8 1 Tf
+0 g
+1.2 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(sender)Tj
+0 g
+-15.6 -1.1429 TD
+[(88:)-599.7({)]TJ
+T*
+[(89:)-599.7(    operationPressed = )]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+16.2 0 TD
+(NO)Tj
+/TT8 1 Tf
+0 g
+1.2 0 TD
+(;)Tj
+-17.4 -1.1429 TD
+[(90:)-599.7(    operandOne = 0;)]TJ
+T*
+[(91:)-599.7(    operandTwo = 0;)]TJ
+T*
+[(92:)-599.7(    operator = )]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+11.4 0 TD
+(nil)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(;)Tj
+-13.2 -1.1429 TD
+[(93:)-599.7(    [)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+5.4 0 TD
+(self)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(.display setStringValue:@)Tj
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+15 0 TD
+("0")Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(];)Tj
+-24.6 -1.1429 TD
+(94:)Tj
+T*
+[(95:)-599.7(})]TJ
+T*
+(96:)Tj
+T*
+[(97:)-599.7(- \()]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.2 0 TD
+(IBAction)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(\))Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(digitPressed)Tj
+/TT8 1 Tf
+0 g
+7.2 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(id)Tj
+/TT8 1 Tf
+0 g
+1.2 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(sender)Tj
+0 g
+-19.8 -1.1429 TD
+[(98:)-599.7({)]TJ
+T*
+[(99:)-599.7(    )]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(if)Tj
+/TT8 1 Tf
+0 g
+1.2 0 TD
+( \(!operationPressed\) {)Tj
+-6.6 -1.1429 TD
+[(100:)-599.6(        operandOne = [[[[NSString alloc] initWithFormat:@)]TJ
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+37.2 0 TD
+("%@")Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(,[sender title]]autorel)Tj
+-40.9428 -1.1429 TD
+(ease ]doubleValue];)Tj
+1.3429 -1.1429 TD
+[(101:)-599.6(        [)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+8.4 0 TD
+(self)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(.display setStringValue:[[[NSString alloc] initWithFormat:@)Tj
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+35.4 0 TD
+("%g")Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(,operand)Tj
+-49.9428 -1.1429 TD
+(One]autorelease]];)Tj
+1.3429 -1.1429 TD
+[(102:)-599.6(        )]TJ
+T*
+[(103:)-599.6(    })]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+6 0 TD
+(else)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+({)Tj
+-8.4 -1.1429 TD
+[(104:)-599.6(        operandTwo = [[[NSString alloc] initWithFormat:@)]TJ
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+36.6 0 TD
+("%@")Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(,[sender title]]doubleVa)Tj
+-40.3429 -1.1429 TD
+(lue];)Tj
+1.3429 -1.1429 TD
+[(105:)-599.6(        [)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+8.4 0 TD
+(self)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(.display setStringValue:[[[NSString alloc] initWithFormat:@)Tj
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+35.4 0 TD
+("%g")Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(,operand)Tj
+ET
+endstream
+endobj
+20 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT10 8 0 R
+/TT12 14 0 R
+>>
+/ExtGState <<
+/GS1 9 0 R
+>>
+>>
+endobj
+22 0 obj
+<<
+/Length 3607
+>>
+stream
+0 G
+0 J 0 j 0.1 w 10 M []0 d
+/GS1 gs
+1 i 
+571 421 m
+60 421 l
+S
+0.95 g
+42 818 18 -794 re
+f
+0.7 g
+24 96 36 -72 re
+f
+BT
+/TT2 1 Tf
+0 12 -12 0 40 38.666 Tm
+0 g
+0 Tc
+0 Tw
+(11/19/11)Tj
+-0.0552 -1.0667 TD
+(16:29:17)Tj
+ET
+0.7 g
+24 818 36 -72 re
+f
+BT
+/TT4 1 Tf
+0 28.8 -28.8 0 52.8 773.9915 Tm
+1 g
+(2)Tj
+/TT6 1 Tf
+0 14 -14 0 55.5 304.9429 Tm
+0 g
+(SimpleCalculatorByCodeAppDelegate.m)Tj
+-2.0964 1.2857 TD
+(Objective C Calculator: Code - WBuchner 6643140)Tj
+/TT8 1 Tf
+0 7 -7 0 70 29 Tm
+(Two  ]autorelease]];)Tj
+1.3429 -1.1429 TD
+[(106:)-599.6(    })]TJ
+T*
+[(107:)-599.6(})]TJ
+T*
+(108:)Tj
+T*
+[(109:)-599.6(- \()]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.8 0 TD
+(IBAction)Tj
+/TT8 1 Tf
+0 g
+4.8 0 TD
+(\))Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(operationPressed)Tj
+/TT8 1 Tf
+0 g
+9.6 0 TD
+(:\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+1.2 0 TD
+(id)Tj
+/TT8 1 Tf
+0 g
+1.2 0 TD
+(\))Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(sender)Tj
+0 g
+-22.8 -1.1429 TD
+[(110:)-599.6({)]TJ
+T*
+[(111:)-599.6(    operationPressed = )]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+16.8 0 TD
+(YES)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(;)Tj
+-18.6 -1.1429 TD
+[(112:)-599.6(    )]TJ
+T*
+[(113:)-599.6(    )]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+5.4 0 TD
+(if)Tj
+/TT8 1 Tf
+0 g
+1.2 0 TD
+( \([[sender title] isEqualToString:@)Tj
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+21 0 TD
+("=")Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(] \) {)Tj
+-29.4 -1.1429 TD
+[(114:)-599.6(        [)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+8.4 0 TD
+(self)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(.display setStringValue:[[[NSString alloc] initWithFormat:@)Tj
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+35.4 0 TD
+("%g")Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(,[)Tj
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+1.2 0 TD
+(self)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+( p)Tj
+-53.5429 -1.1429 TD
+(erformOperation]]autorelease]];)Tj
+1.3429 -1.1429 TD
+[(115:)-599.6(    })]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+6 0 TD
+(else)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+({)Tj
+-8.4 -1.1429 TD
+[(116:)-599.6(        operator = [sender title];)]TJ
+T*
+[(117:)-599.6(    })]TJ
+T*
+[(118:)-599.6(})]TJ
+T*
+(119:)Tj
+T*
+[(120:)-599.6(- \()]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.8 0 TD
+(double)Tj
+/TT8 1 Tf
+0 g
+3.6 0 TD
+(\))Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(performOperation)Tj
+/TT8 1 Tf
+0 g
+-9 -1.1429 TD
+[(121:)-599.6({)]TJ
+T*
+[(122:)-599.6(    )]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+5.4 0 TD
+(double)Tj
+/TT8 1 Tf
+0 g
+3.6 0 TD
+( result;)Tj
+-9 -1.1429 TD
+[(123:)-599.6(    )]TJ
+T*
+[(124:)-599.6(    )]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+5.4 0 TD
+(if)Tj
+/TT8 1 Tf
+0 g
+1.2 0 TD
+( \([operator isEqualToString:@)Tj
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+17.4 0 TD
+("+")Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(]\) {)Tj
+-25.8 -1.1429 TD
+[(125:)-599.6(        result = operandOne + operandTwo; )]TJ
+T*
+[(126:)-599.6(    })]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+6 0 TD
+(else)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+( )Tj
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(if)Tj
+/TT8 1 Tf
+0 g
+1.2 0 TD
+(  \([operator isEqualToString:@)Tj
+/TT10 1 Tf
+0.737 0.561 0.561 rg
+18 0 TD
+("-")Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+(]\) {)Tj
+-30 -1.1429 TD
+[(127:)-599.6(        result = operandOne - operandTwo; )]TJ
+T*
+[(128:)-599.6(    })]TJ
+T*
+[(129:)-599.6(    )]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+5.4 0 TD
+(return)Tj
+/TT8 1 Tf
+0 g
+3.6 0 TD
+( result;)Tj
+-9 -1.1429 TD
+[(130:)-599.6(})]TJ
+T*
+(131:)Tj
+T*
+[(132:)-599.6(-\()]TJ
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.2 0 TD
+(void)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(\))Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(dealloc)Tj
+/TT8 1 Tf
+0 g
+-7.2 -1.1429 TD
+[(133:)-599.6({)]TJ
+T*
+[(134:)-599.6(    )]TJ
+T*
+[(135:)-599.6(    [)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+6 0 TD
+(super)Tj
+/TT8 1 Tf
+0 g
+3 0 TD
+( dealloc];)Tj
+-9 -1.1429 TD
+[(136:)-599.6(})]TJ
+T*
+[(137:)-599.6(@)]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+3.6 0 TD
+(end)Tj
+ET
+endstream
+endobj
+23 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT10 8 0 R
+>>
+/ExtGState <<
+/GS1 9 0 R
+>>
+>>
+endobj
+25 0 obj
+<<
+/Length 2025
+>>
+stream
+0 G
+0 J 0 j 0.1 w 10 M []0 d
+/GS1 gs
+1 i 
+571 421 m
+60 421 l
+S
+0.95 g
+42 818 18 -794 re
+f
+0.7 g
+24 96 36 -72 re
+f
+BT
+/TT2 1 Tf
+0 12 -12 0 40 38.666 Tm
+0 g
+0 Tc
+0 Tw
+(11/15/11)Tj
+-0.0552 -1.0667 TD
+(12:31:50)Tj
+ET
+0.7 g
+24 818 36 -72 re
+f
+BT
+/TT4 1 Tf
+0 28.8 -28.8 0 52.8 773.9915 Tm
+1 g
+(1)Tj
+/TT6 1 Tf
+0 14 -14 0 55.5 399.8086 Tm
+0 g
+(main.m)Tj
+-8.8726 1.2857 TD
+(Objective C Calculator: Code - WBuchner 6643140)Tj
+/TT8 1 Tf
+0 7 -7 0 70 46.8 Tm
+(1:)Tj
+/TT12 1 Tf
+0.698 0.133 0.133 rg
+1.8 0 TD
+(//)Tj
+/TT8 1 Tf
+-1.8 -1.1429 TD
+(2:)Tj
+/TT12 1 Tf
+1.8 0 TD
+(//  main.m)Tj
+/TT8 1 Tf
+-1.8 -1.1429 TD
+(3:)Tj
+/TT12 1 Tf
+1.8 0 TD
+(//  SimpleCalculatorByCode)Tj
+/TT8 1 Tf
+-1.8 -1.1429 TD
+(4:)Tj
+/TT12 1 Tf
+1.8 0 TD
+(//)Tj
+/TT8 1 Tf
+-1.8 -1.1429 TD
+(5:)Tj
+/TT12 1 Tf
+1.8 0 TD
+(//  Created by Wayne Buchner on 15/11/11.)Tj
+/TT8 1 Tf
+-1.8 -1.1429 TD
+(6:)Tj
+/TT12 1 Tf
+1.8 0 TD
+(//  Copyright 2011 __MyCompanyName__. All rights reserved.)Tj
+/TT8 1 Tf
+-1.8 -1.1429 TD
+(7:)Tj
+/TT12 1 Tf
+1.8 0 TD
+(//)Tj
+/TT8 1 Tf
+-1.8 -1.1429 TD
+(8:)Tj
+0 g
+T*
+[(9:)-599.8(#)]TJ
+/TT10 1 Tf
+0.373 0.62 0.627 rg
+2.4 0 TD
+(import)Tj
+/TT8 1 Tf
+0 g
+3.6 0 TD
+( <)Tj
+0.722 0.525 0.043 rg
+1.2 0 TD
+(Cocoa)Tj
+0 g
+3 0 TD
+(/)Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(Cocoa)Tj
+0 g
+3 0 TD
+(.)Tj
+0.722 0.525 0.043 rg
+0.6 0 TD
+(h)Tj
+0 g
+0.6 0 TD
+(>)Tj
+-15.6 -1.1429 TD
+(10:)Tj
+T*
+(11:)Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+2.4 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+( )Tj
+/TT10 1 Tf
+0 0 1 rg
+0.6 0 TD
+(main)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+(\()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+0.6 0 TD
+(int)Tj
+/TT8 1 Tf
+0 g
+1.8 0 TD
+( argc, )Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+4.2 0 TD
+(char)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+( *argv[]\))Tj
+-16.2 -1.1429 TD
+[(12:)-599.7({)]TJ
+T*
+[(13:)-599.7(    )]TJ
+/TT10 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(return)Tj
+/TT8 1 Tf
+0 g
+3.6 0 TD
+( NSApplicationMain\(argc, \()Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+15.6 0 TD
+(const)Tj
+/TT8 1 Tf
+0 g
+3 0 TD
+( )Tj
+/TT10 1 Tf
+0.133 0.545 0.133 rg
+0.6 0 TD
+(char)Tj
+/TT8 1 Tf
+0 g
+2.4 0 TD
+( **\)argv\);)Tj
+-30 -1.1429 TD
+[(14:)-599.7(})]TJ
+ET
+endstream
+endobj
+26 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT10 8 0 R
+/TT12 14 0 R
+>>
+/ExtGState <<
+/GS1 9 0 R
+>>
+>>
+endobj
+9 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+27 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 676
+/Descent -250
+/Flags 262178
+/FontBBox [-168 -218 1000 935]
+/FontName /Times-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 461
+/StemH 139
+>>
+endobj
+28 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 770
+/CapHeight 718
+/Descent -229
+/Flags 262176
+/FontBBox [-170 -228 1003 962]
+/FontName /Helvetica-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 532
+/StemH 140
+>>
+endobj
+29 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+30 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+31 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 262179
+/FontBBox [-113 -250 749 801]
+/FontName /Courier-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 439
+/StemH 84
+>>
+endobj
+32 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 99
+/FontBBox [-28 -250 742 805]
+/FontName /Courier-Oblique
+/ItalicAngle -15
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 47
+/LastChar 58
+/Widths [278 500 500 500 500 0 500 500 500 0 500 333 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Bold
+/FontDescriptor 27 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 49
+/LastChar 50
+/Widths [556 556 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Helvetica-Bold
+/FontDescriptor 28 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 121
+/Widths [250 0 0 0 0 0 0 0 0 0 0 0 0 333 250 0 
+500 500 0 500 500 0 500 0 0 0 278 0 0 0 0 0 
+0 722 667 667 722 0 0 0 0 333 0 0 0 0 0 722 
+556 0 0 556 0 0 0 944 0 0 0 0 0 0 0 0 
+0 444 500 444 500 444 333 500 500 278 278 0 278 778 500 500 
+500 0 333 389 278 500 500 0 500 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 29 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 194
+/Widths [600 600 0 600 600 0 0 0 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 0 600 600 600 600 
+600 0 600 600 600 600 600 600 600 600 0 600 0 600 0 600 
+0 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 0 600 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 600 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 30 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 122
+/Widths [600 0 600 0 0 600 0 0 0 0 600 600 0 600 600 600 
+600 600 0 0 0 0 0 0 600 0 600 0 0 600 0 0 
+600 600 600 600 600 600 600 0 600 600 0 0 600 0 600 600 
+600 0 0 600 600 600 600 600 600 600 0 0 0 0 0 0 
+0 600 600 600 600 600 600 600 600 600 600 0 600 600 600 600 
+600 0 600 600 600 600 600 600 0 600 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Bold
+/FontDescriptor 31 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 146
+/Widths [600 0 0 0 0 0 0 0 0 0 0 0 0 0 600 600 
+600 600 600 0 0 600 0 0 0 0 0 0 0 0 0 0 
+0 600 600 600 0 0 0 0 0 0 0 0 0 600 600 0 
+600 0 0 600 0 0 0 600 0 0 0 0 0 0 0 600 
+0 600 600 600 600 600 600 600 600 600 600 0 600 600 600 600 
+600 0 600 600 600 600 600 0 600 600 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Oblique
+/FontDescriptor 32 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 13 0 R
+/Contents 12 0 R
+>>
+endobj
+15 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 17 0 R
+/Contents 16 0 R
+>>
+endobj
+18 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 20 0 R
+/Contents 19 0 R
+>>
+endobj
+21 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 23 0 R
+/Contents 22 0 R
+>>
+endobj
+24 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 26 0 R
+/Contents 25 0 R
+>>
+endobj
+33 0 obj
+<<
+/S /D
+>>
+endobj
+34 0 obj
+<<
+/Nums [0 33 0 R ]
+>>
+endobj
+10 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 11 0 R 15 0 R 18 0 R 21 0 R 24 0 R]
+/Count 6
+/Rotate 90
+/MediaBox [0 0 595 842]
+>>
+endobj
+35 0 obj
+<<
+/CreationDate (D:20111120174517+11'00')
+/ModDate (D:20111120174517+11'00')
+/Producer (Apple pstopdf)
+>>
+endobj
+36 0 obj
+<<
+/Type /Catalog
+/Pages 10 0 R
+/PageLabels 34 0 R
+>>
+endobj
+xref
+0 37
+0000000000 65535 f 
+0000039347 00000 n 
+0000000016 00000 n 
+0000002851 00000 n 
+0000036924 00000 n 
+0000037130 00000 n 
+0000037304 00000 n 
+0000037733 00000 n 
+0000038399 00000 n 
+0000035585 00000 n 
+0000039916 00000 n 
+0000039428 00000 n 
+0000002991 00000 n 
+0000004146 00000 n 
+0000038863 00000 n 
+0000039512 00000 n 
+0000004300 00000 n 
+0000011235 00000 n 
+0000039596 00000 n 
+0000011376 00000 n 
+0000029398 00000 n 
+0000039680 00000 n 
+0000029552 00000 n 
+0000033212 00000 n 
+0000039764 00000 n 
+0000033353 00000 n 
+0000035431 00000 n 
+0000035725 00000 n 
+0000035927 00000 n 
+0000036133 00000 n 
+0000036330 00000 n 
+0000036521 00000 n 
+0000036723 00000 n 
+0000039848 00000 n 
+0000039876 00000 n 
+0000040044 00000 n 
+0000040167 00000 n 
+trailer
+<<
+/Size 37
+/Root 36 0 R
+/Info 35 0 R
+/ID [<b34f6cc6eeeacaf31dbf28c27514b687><b34f6cc6eeeacaf31dbf28c27514b687>]
+>>
+startxref
+40237
+%%EOF

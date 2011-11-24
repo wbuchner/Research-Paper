@@ -1,9 +1,8 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Graphic User Interface Architecture An Introduction}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{View Hierarchy in Cocoa}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{View Hierarchy in Swing}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.3}{Hello World}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.4}{Simple Calculator}{section.2}% 6
-\BOOKMARK [2][-]{subsection.2.5}{Results}{section.2}% 7
-\BOOKMARK [1][-]{section.3}{Event Handling}{}% 8
-\BOOKMARK [1][-]{section.4}{Object Information Passing}{}% 9
+\BOOKMARK [1][-]{section.3}{View Hierarchy in Cocoa}{}% 3
+\BOOKMARK [1][-]{section.4}{View Hierarchy in Swing}{}% 4
+\BOOKMARK [1][-]{section.5}{Hello World}{}% 5
+\BOOKMARK [1][-]{section.6}{Simple Calculator}{}% 6
+\BOOKMARK [1][-]{section.7}{Results}{}% 7
+\BOOKMARK [1][-]{section.8}{Conclusion}{}% 8

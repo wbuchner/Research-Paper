@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.11.2)  19 NOV 2011 23:11
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.11.2)  20 NOV 2011 17:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -649,18 +649,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 156.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 156.
- (./gui.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
-)
+ (./gui.toc)
 \tf@toc=\write7
 \openout7 = `gui.toc'.
 
  [1]
-
-LaTeX Warning: Reference `sec:framework_specific_objects' on page 2 undefined o
-n input line 168.
-
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 180.
 Package epstopdf Info: Source file: <tableSimilarClasses.eps>
 (epstopdf)                    date: 2011-11-02 18:33:52
 (epstopdf)                    size: 504130 bytes
@@ -671,7 +666,8 @@ Package epstopdf Info: Source file: <tableSimilarClasses.eps>
 nverted-to.pdf tableSimilarClasses.eps>
 (epstopdf)             \includegraphics on input line 181.
 Package epstopdf Info: Output file is already uptodate.
-<tableSimilarClasses-eps-converted-to.pdf, id=76, 449.68pt x 176.66pt>
+
+<tableSimilarClasses-eps-converted-to.pdf, id=72, 449.68pt x 176.66pt>
 File: tableSimilarClasses-eps-converted-to.pdf Graphic file (type pdf)
 
 <use tableSimilarClasses-eps-converted-to.pdf>
@@ -683,9 +679,6 @@ Overfull \hbox (8.71101pt too wide) in paragraph at lines 180--183
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [2]
 Package epstopdf Info: Source file: <UIKitClassHierarchy.eps>
 (epstopdf)                    date: 2011-11-07 17:53:21
@@ -695,24 +688,24 @@ Package epstopdf Info: Source file: <UIKitClassHierarchy.eps>
 (epstopdf)                    size: 185046 bytes
 (epstopdf)             Command: <repstopdf --outfile=UIKitClassHierarchy-eps-co
 nverted-to.pdf UIKitClassHierarchy.eps>
-(epstopdf)             \includegraphics on input line 203.
+(epstopdf)             \includegraphics on input line 197.
 Package epstopdf Info: Output file is already uptodate.
- <UIKitClassHierarchy-eps-converted-to.pdf, id=89, 531.9875pt x 788.9475pt>
+ <UIKitClassHierarchy-eps-converted-to.pdf, id=86, 531.9875pt x 788.9475pt>
 File: UIKitClassHierarchy-eps-converted-to.pdf Graphic file (type pdf)
 
 <use UIKitClassHierarchy-eps-converted-to.pdf>
 Package pdftex.def Info: UIKitClassHierarchy-eps-converted-to.pdf used on input
- line 203.
+ line 197.
 (pdftex.def)             Requested size: 425.59058pt x 631.15884pt.
  [3 <./tableSimilarClasses-eps-converted-to.pdf>]
 Overfull \vbox (20.85191pt too high) has occurred while \output is active []
 
 
 [4 <./UIKitClassHierarchy-eps-converted-to.pdf>]
-<Java1.png, id=323, 519.3804pt x 557.9244pt>
+<Java1.png, id=320, 519.3804pt x 557.9244pt>
 File: Java1.png Graphic file (type png)
  <use Java1.png>
-Package pdftex.def Info: Java1.png used on input line 216.
+Package pdftex.def Info: Java1.png used on input line 210.
 (pdftex.def)             Requested size: 415.50487pt x 446.3401pt.
  [5 <./Java1.png>]
 Package epstopdf Info: Source file: <HelloWorldLabelHookUp.eps>
@@ -724,15 +717,15 @@ Package epstopdf Info: Source file: <HelloWorldLabelHookUp.eps>
 (epstopdf)                    size: 1206639 bytes
 (epstopdf)             Command: <repstopdf --outfile=HelloWorldLabelHookUp-eps-
 converted-to.pdf HelloWorldLabelHookUp.eps>
-(epstopdf)             \includegraphics on input line 235.
+(epstopdf)             \includegraphics on input line 229.
 Package epstopdf Info: Output file is already uptodate.
 
-<HelloWorldLabelHookUp-eps-converted-to.pdf, id=333, 2569.6pt x 1445.4pt>
+<HelloWorldLabelHookUp-eps-converted-to.pdf, id=330, 2569.6pt x 1445.4pt>
 File: HelloWorldLabelHookUp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use HelloWorldLabelHookUp-eps-converted-to.pdf>
 Package pdftex.def Info: HelloWorldLabelHookUp-eps-converted-to.pdf used on inp
-ut line 235.
+ut line 229.
 (pdftex.def)             Requested size: 436.82623pt x 245.71475pt.
 Package epstopdf Info: Source file: <netbeans.eps>
 (epstopdf)                    date: 2011-11-13 12:53:02
@@ -742,14 +735,14 @@ Package epstopdf Info: Source file: <netbeans.eps>
 (epstopdf)                    size: 358757 bytes
 (epstopdf)             Command: <repstopdf --outfile=netbeans-eps-converted-to.
 pdf netbeans.eps>
-(epstopdf)             \includegraphics on input line 246.
+(epstopdf)             \includegraphics on input line 240.
 Package epstopdf Info: Output file is already uptodate.
 
-<netbeans-eps-converted-to.pdf, id=341, 1543.7675pt x 1055.945pt>
+<netbeans-eps-converted-to.pdf, id=338, 1543.7675pt x 1055.945pt>
 File: netbeans-eps-converted-to.pdf Graphic file (type pdf)
 
 <use netbeans-eps-converted-to.pdf>
-Package pdftex.def Info: netbeans-eps-converted-to.pdf used on input line 246.
+Package pdftex.def Info: netbeans-eps-converted-to.pdf used on input line 240.
 (pdftex.def)             Requested size: 447.6811pt x 306.2162pt.
  [6 <./HelloWorldLabelHookUp-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <TableBuildCompares.eps>
@@ -760,18 +753,18 @@ Package epstopdf Info: Source file: <TableBuildCompares.eps>
 (epstopdf)                    size: 20307 bytes
 (epstopdf)             Command: <repstopdf --outfile=TableBuildCompares-eps-con
 verted-to.pdf TableBuildCompares.eps>
-(epstopdf)             \includegraphics on input line 254.
+(epstopdf)             \includegraphics on input line 248.
 Package epstopdf Info: Output file is already uptodate.
 
-<TableBuildCompares-eps-converted-to.pdf, id=355, 723.70375pt x 129.48375pt>
+<TableBuildCompares-eps-converted-to.pdf, id=352, 723.70375pt x 129.48375pt>
 File: TableBuildCompares-eps-converted-to.pdf Graphic file (type pdf)
 
 <use TableBuildCompares-eps-converted-to.pdf>
 Package pdftex.def Info: TableBuildCompares-eps-converted-to.pdf used on input 
-line 254.
+line 248.
 (pdftex.def)             Requested size: 448.69168pt x 80.27908pt.
 
-Overfull \hbox (7.7238pt too wide) in paragraph at lines 253--256
+Overfull \hbox (7.7238pt too wide) in paragraph at lines 247--250
  [][] 
  []
 
@@ -784,15 +777,15 @@ Package epstopdf Info: Source file: <swintrekuserinterface.eps>
 (epstopdf)                    size: 936288 bytes
 (epstopdf)             Command: <repstopdf --outfile=swintrekuserinterface-eps-
 converted-to.pdf swintrekuserinterface.eps>
-(epstopdf)             \includegraphics on input line 262.
+(epstopdf)             \includegraphics on input line 256.
 Package epstopdf Info: Output file is already uptodate.
 
-<swintrekuserinterface-eps-converted-to.pdf, id=356, 1835.85875pt x 1100.11pt>
+<swintrekuserinterface-eps-converted-to.pdf, id=353, 1835.85875pt x 1100.11pt>
 File: swintrekuserinterface-eps-converted-to.pdf Graphic file (type pdf)
 
 <use swintrekuserinterface-eps-converted-to.pdf>
 Package pdftex.def Info: swintrekuserinterface-eps-converted-to.pdf used on inp
-ut line 262.
+ut line 256.
 (pdftex.def)             Requested size: 440.6151pt x 264.0318pt.
  [7 <./netbeans-eps-converted-to.pdf> <./TableBuildCompares-eps-converted-to.pd
 f>]
@@ -804,15 +797,15 @@ Package epstopdf Info: Source file: <simplecalculator.eps>
 (epstopdf)                    size: 18835 bytes
 (epstopdf)             Command: <repstopdf --outfile=simplecalculator-eps-conve
 rted-to.pdf simplecalculator.eps>
-(epstopdf)             \includegraphics on input line 276.
+(epstopdf)             \includegraphics on input line 270.
 Package epstopdf Info: Output file is already uptodate.
 
-<simplecalculator-eps-converted-to.pdf, id=377, 580.1675pt x 126.4725pt>
+<simplecalculator-eps-converted-to.pdf, id=374, 580.1675pt x 126.4725pt>
 File: simplecalculator-eps-converted-to.pdf Graphic file (type pdf)
 
 <use simplecalculator-eps-converted-to.pdf>
 Package pdftex.def Info: simplecalculator-eps-converted-to.pdf used on input li
-ne 276.
+ne 270.
 (pdftex.def)             Requested size: 377.10439pt x 82.20615pt.
  [8 <./swintrekuserinterface-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Calculators.eps>
@@ -823,33 +816,30 @@ Package epstopdf Info: Source file: <Calculators.eps>
 (epstopdf)                    size: 216936 bytes
 (epstopdf)             Command: <repstopdf --outfile=Calculators-eps-converted-
 to.pdf Calculators.eps>
-(epstopdf)             \includegraphics on input line 292.
+(epstopdf)             \includegraphics on input line 286.
 Package epstopdf Info: Output file is already uptodate.
 
-<Calculators-eps-converted-to.pdf, id=387, 427.5975pt x 161.60374pt>
+<Calculators-eps-converted-to.pdf, id=384, 427.5975pt x 161.60374pt>
 File: Calculators-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Calculators-eps-converted-to.pdf>
-Package pdftex.def Info: Calculators-eps-converted-to.pdf used on input line 29
-2.
+Package pdftex.def Info: Calculators-eps-converted-to.pdf used on input line 28
+6.
 (pdftex.def)             Requested size: 427.59645pt x 161.60335pt.
-LaTeX Font Info:    Try loading font information for TS1+cmss on input line 300
+LaTeX Font Info:    Try loading font information for TS1+cmss on input line 294
 .
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<FileComparisons.pdf, id=389, 685.56125pt x 245.91875pt>
+<FileComparisons.pdf, id=386, 685.56125pt x 245.91875pt>
 File: FileComparisons.pdf Graphic file (type pdf)
 
 <use FileComparisons.pdf>
-Package pdftex.def Info: FileComparisons.pdf used on input line 313.
+Package pdftex.def Info: FileComparisons.pdf used on input line 307.
 (pdftex.def)             Requested size: 411.33992pt x 147.55237pt.
  [9 <./simplecalculator-eps-converted-to.pdf> <./Calculators-eps-converted-to.p
-df>] [10 <./FileComparisons.pdf>]
-(/usr/local/texlive/2010/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2004/09/05 1.3 listings language file
-)
+df>]
 Package epstopdf Info: Source file: <ClassDiagrams.eps>
 (epstopdf)                    date: 2011-11-19 22:44:53
 (epstopdf)                    size: 2993834 bytes
@@ -858,46 +848,47 @@ Package epstopdf Info: Source file: <ClassDiagrams.eps>
 (epstopdf)                    size: 87771 bytes
 (epstopdf)             Command: <repstopdf --outfile=ClassDiagrams-eps-converte
 d-to.pdf ClassDiagrams.eps>
-(epstopdf)             \includegraphics on input line 378.
+(epstopdf)             \includegraphics on input line 321.
 Package epstopdf Info: Output file is already uptodate.
 
-<ClassDiagrams-eps-converted-to.pdf, id=460, 594.22pt x 265.99374pt>
+<ClassDiagrams-eps-converted-to.pdf, id=420, 594.22pt x 265.99374pt>
 File: ClassDiagrams-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ClassDiagrams-eps-converted-to.pdf>
 Package pdftex.def Info: ClassDiagrams-eps-converted-to.pdf used on input line 
-378.
+321.
 (pdftex.def)             Requested size: 445.66391pt x 199.49481pt.
- [11] [12 <./ClassDiagrams-eps-converted-to.pdf>] (./gui.bbl)
+ [10 <./FileComparisons.pdf>] [11 <./ClassDiagrams-eps-converted-to.pdf>]
+(/usr/local/texlive/2010/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+) [12]
+[13] (./gui.bbl)
 
 Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 398.
-[13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 398.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 388.
+[14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 388.
  (./gui.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 398.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 398.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 388.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 388.
 Package rerunfilecheck Info: File `gui.out' has not changed.
-(rerunfilecheck)             Checksum: 959BB56271008384642C7C0BD97B96FE;569.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: B3D15D476FB84F3860E4F2E365CF720D;434.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 398.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 388.
  ) 
 Here is how much of TeX's memory you used:
- 11753 strings out of 493763
- 178177 string characters out of 3144954
- 481757 words of memory out of 3000000
- 14743 multiletter control sequences out of 15000+200000
- 17299 words of font info for 40 fonts, out of 3000000 for 9000
+ 11748 strings out of 493763
+ 178023 string characters out of 3144954
+ 482070 words of memory out of 3000000
+ 14739 multiletter control sequences out of 15000+200000
+ 16528 words of font info for 39 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 37i,14n,74p,1403b,1113s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,14n,74p,1638b,1113s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{glo:mvc} has been referenced but does not exist, 
 replaced by a fixed one
 
@@ -916,12 +907,11 @@ live/2010/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texli
 ve/2010/texmf-dist/fonts/type1/public/cm-super/sfss1728.pfb></usr/local/texlive
 /2010/texmf-dist/fonts/type1/public/cm-super/sfsx0700.pfb></usr/local/texlive/2
 010/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/local/texlive/201
-0/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2010/
-texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on gui.pdf (14 pages, 3461027 bytes).
+0/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb>
+Output written on gui.pdf (15 pages, 3443947 bytes).
 PDF statistics:
- 601 PDF objects out of 1000 (max. 8388607)
- 309 compressed objects within 4 object streams
+ 605 PDF objects out of 1000 (max. 8388607)
+ 313 compressed objects within 4 object streams
  90 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 120 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,7 +3,7 @@
 \glsgroupheading{G}\relax \glsresetentrylist %
 \glossaryentryfield{gui}{\glsnamefont{Graphic User Interface}}{Graphic User Interface}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2\delimN 3}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{5\delimN 6}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{6}}}\glsgroupskip
 \glsgroupheading{M}\relax \glsresetentrylist %
 \glossaryentryfield{mvc}{\glsnamefont{Model View Controller}}{Model View Controller}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%

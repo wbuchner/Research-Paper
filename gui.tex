@@ -162,20 +162,20 @@ The \gls{gui} allows the user to interact with a program by manipulating propert
 
 %
 % NEED TO FIND THE RIGHT SECTION FOR THIS
-\citeasnoun{Dias2011} states that writing code can be a daunting experience for novice programmers and that designing in an interface using direct manipulation of objects is a powerful learning tool to what was once a steep learning curve. Research undertaken for this document will provide proof that advances in \gls{gui} builders significantly reduce code writing time, increasing efficiency and reduce errors. Removing unnecessary debugging time from the development lifecycle by reducing errors and increasing code quality as GUI builders improve, may reduce development times and allow developers to concentrate on other areas. Tests results generated for this paper are the results of timed tests between Apple's native integrated development environment, XCode Oracles Netbeans. Results are the comparison in improvements to code completion and build times.  
+\citeasnoun{Dias2011} states that writing code can be a daunting experience for novice programmers and that designing an interface using direct manipulation of objects is a powerful learning tool to what was once a steep learning curve. Research undertaken for this document will provide proof that advances in \gls{gui} builders significantly reduce code writing time, increasing efficiency and reduce errors. Removing unnecessary debugging time from the development lifecycle by reducing errors and increasing code quality as GUI builders improve, may reduce development times and allow developers to concentrate on other areas. Tests results generated for this paper are the results of timed tests between Apple's native integrated development environment, XCode and Oracles Netbeans. Results are the comparison in improvements to code completion and build times.  
 %
 
-\textbf{Section \ref{sec:graphic_user_interface_architecture}} will introduce the \gls{gui} architecture and explain at a high level the structure of the class hierarchies including an introduction to the Model View Controller (MVC) principals. \textbf{Section \ref{sec:framework_specific_objects}} compares available platform generic frameworks. \textbf{Section \ref{sec:object_information_passing}} explains in detail the differences between information passing and event handling across the two platforms while.
+\textbf{Section \ref{sec:graphic_user_interface_architecture}} will introduce the \gls{gui} architecture and explain at a high level the structure of the class hierarchies including an introduction to the Model View Controller (MVC) principals. \textbf{Section \ref{sec:view_hierarchy_in_cocoa}} and \textbf{\ref{sec:view_hierarchy_in_swing}} introduce and display objects of related view classes. \textbf{Section \ref{sec:hello_world}} compares differences at the highest level between a Hello World program while \textbf{Section \ref{sec:simple_calculator}} discusses and explains points of difference between a more complex program, and \textbf{Section \ref{sec:results}} outlines the results of the Simple Calculator program tests.
 % section introduction (end)
 
 \section{Graphic User Interface Architecture An Introduction} % (fold)
 \label{sec:graphic_user_interface_architecture}
-A \gls{gui} allows the to user interacts with a system. A well designed interface should leverage a users existing knowledge there by improving the effectiveness of the users interaction. Both Cocoa and Swing allow for the layering of objects to be built in a hierarchical manor in order for the user to perform tasks, or in programming terminology trigger events. Although they achieve this in different ways, the semantics are minute in terms of actual designing, where Cocoa generally moved towards a design process based more on WYSIWIG allowing for more productive workflow, other development languages have been slow to implement or follow this lead. Developing a \gls{gui} in Swing can be achieved either through a plain text file containing the code for a window or via a WYSIWIG editor found in IDE's such as BlueJay, Netbeans or Eclipse.
+A \gls{gui} allows the user to interact with a system. A well designed interface should leverage a users existing knowledge there by improving the effectiveness of the users interaction. Both Cocoa and Swing allow for the layering of objects to be built in a hierarchical manor in order for the user to perform tasks, or in programming terminology trigger events. Although they achieve this in different ways, the semantics are minute in terms of actual designing, where Cocoa generally moved towards a design process based more on WYSIWIG allowing for more productive workflow, other development languages have been slow to implement or follow this lead. Developing a \gls{gui} in Swing can be achieved either through a plain text file containing the code for a window or via a WYSIWIG editor found in IDE's such as BlueJay, Netbeans or Eclipse.
 
-Both platforms isolate the view from the data by implementing the \gls{mvc} design pattern (further discussed in Section \ref{sec:object_information_passing}) and the similarities do not end there. Both inherit all core functionalities from a root Object class, NSObject for Cocoa and the JComponent class for Swing. Briefly, although the terminology may be different, both frameworks create an interface in a similar manor. Table \ref{table:tableSimilarClasses} below shows the counterpart for main GUI objects that are shared across both frameworks.
+Both platforms isolate the view from the data by implementing the \gls{mvc} design pattern and the similarities do not end there. Both inherit all core functionalities from a root Object class, NSObject for Cocoa and the JComponent class for Swing. Briefly, although the terminology may be different, both frameworks create an interface in a similar manor.
 
 
-\begin{table}[here]
+\begin{table}[H]
 \centering
 \begin{tabular}{l}
 \includegraphics[scale=1.0]{tableSimilarClasses.eps}
@@ -184,18 +184,12 @@ Both platforms isolate the view from the data by implementing the \gls{mvc} desi
 \label{table:tableSimilarClasses}
 \end{table}
 
-%
-%  DISCUSS DYNAMIC VIEWS!  THAT IS VIEWS THAT ARE CREATED IN CODE AND THUS ARE NOT AVAILABLE TO EDIT VISUALLY.
-%
-%
-%
-%
 
+Table \ref{table:tableSimilarClasses} outlines that both platforms fundamentally build a \gls{gui} using similar constructs. The class names may be different however the principal behind them are similar. Where Java Swing endeavors to supply a cross platform framework, Cocoa is tailored to the MacOS and iOS platforms offering a more rigid, extensible framework build foremost with the platforms specifications but most importantly built to take advantage of the platforms hardware as well.. 
 
-Table \ref{table:tableSimilarClasses} outlines that both platforms fundamentally build a \gls{gui} using similar constructs. The class names may be different however the principal behind them is similar. Where Java Swing endeavors to supply a cross platform framework, Cocoa is tailored to the MacOS and iOS platforms offering a more rigid, extensible framework build foremost with the platforms specifications. 
-\subsection{View Hierarchy in Cocoa} % (fold)
-\label{sub:view_hierarchy_in_cocoa}
-Figure \ref{fig:cocoaHierarchy} shows Cocoa's UIKit Class Hierarchy. Note that all objects inherit directly from the root class of NSObject. Also being more platform specific it has platform centric objects targeted at specific hardware devices. Building a \gls{gui} using Cocoa has been further simplified by the employment and development over countless iterations of the Integrated Development Environment, XCode. XCode's interface builder offers detailed information on objects and offers only objects appropriate for use in the particular project, saving the developer time implementing unsupported user interface elements. As an aside, the newest iteration of XCode allows for storyboarding of windows to further simplify navigation between windows.
+\section{View Hierarchy in Cocoa} % (fold)
+\label{sec:view_hierarchy_in_cocoa}
+Figure \ref{fig:cocoaHierarchy} shows Cocoa's UIKit Class Hierarchy. Note that all objects inherit directly from the root class of NSObject. Also being more platform specific it has platform centric objects targeted at specific hardware devices. Building a \gls{gui} using Cocoa has been further simplified by the employment and development over countless iterations of the Integrated Development Environment, XCode. XCode's interface builder offers detailed information on objects and offers only objects appropriate for use in the particular project, saving the developer time implementing unsupported user interface elements. As an aside, the newest iteration of XCode allows for storyboarding of windows to further simplify navigation between Views.
 
 
 \begin{figure}[H]
@@ -206,8 +200,8 @@ Figure \ref{fig:cocoaHierarchy} shows Cocoa's UIKit Class Hierarchy. Note that a
 \end{figure}
 % subsection view_hierarchy_in_cocoa (end)
 
-\subsection{View Hierarchy in Swing} % (fold)
-\label{sub:view_hierarchy_in_swing}
+\section{View Hierarchy in Swing} % (fold)
+\label{sec:view_hierarchy_in_swing}
 In Figure \ref{fig:swingHierarchy} you can see that Swing's hierarchy is configured only slightly differently, with JComponent inheriting from the Container class, whose root class is Object. Java Swing is a lightweight framework built on top of Java's awt framework. Due to it's completely Java construction it can be easily mixed with other Java Component class objects such as standard Java AWT labels, text fields and scrollbars.
 
 
@@ -224,8 +218,8 @@ In Figure \ref{fig:swingHierarchy} you can see that Swing's hierarchy is configu
 %
 %
 
-\subsection{Hello World} % (fold)
-\label{sub:hello_world}
+\section{Hello World} % (fold)
+\label{sec:hello_world}
 Moving from text based user interaction to a \gls{gui} the understanding of how input is received changes. A programmer must shift from taking the result of a direct prompt to listening for user interactions. This is called event based programming and that is how \gls{gui}'s work. Both Swing and Cocoa work in this manor. In both frameworks, \textbf{Event Listeners} respond to interaction with specific elements of the UI.
 
 
@@ -267,9 +261,9 @@ Constructing the user interface with the assistance of a \gls{gui} builder prove
 \textbf{Getting} and \textbf{Setting} objects properties created using GUI builders operate similarly in both platforms. Differences across the platforms are syntactical and reserved to either taking the shortcut in XCode and allowing it to synthesize these properties values for you, or writing the getters and setter code as you would in the same way in Java. The benefit of XCode is the ability to change these post GUI build where as in NetBeans changing a property created by the GUI, the name perhaps or removing it must be done through the GUI builder.
 % subsection hello_world (end)
 
-\subsection{Simple Calculator} % (fold)
-\label{sub:simple_calculator}
-Further testing the hypothesis that XCode is a more efficient IDE as offered in section \ref{sub:hello_world} is proven in this section. Results of the Hello World program shown in \ref{sub:hello_world} are further collaborated by constructing and testing a more complex program. A calculator that adds or subtracts two numbers in both Objective C and Java would be used to as further evidence. The devised test is to build four programs, a hand Coded Calculator and a Calculator created with the help of the IDE's interface builder over both platforms. This process was timed recording Build and run sequences, lines of code required and average errors per build. The results for building the simple calculators can be seen in Table \ref{table:simplecalc}. 
+\section{Simple Calculator} % (fold)
+\label{sec:simple_calculator}
+Further testing the hypothesis that XCode is a more efficient IDE as offered in section \ref{sec:hello_world} is proven in this section. Results of the Hello World program shown in \ref{sec:hello_world} are further collaborated by constructing and testing a more complex program. A calculator that adds or subtracts two numbers in both Objective C and Java would be used to as further evidence. The devised test is to build four programs, a hand Coded Calculator and a Calculator created with the help of the IDE's interface builder over both platforms. This process was timed recording Build and run sequences, lines of code required and average errors per build. The results for building the simple calculators can be seen in Table \ref{table:simplecalc}. 
 \begin{table}[H]
 \centering
 \begin{tabular}{l}
@@ -315,14 +309,19 @@ Figure \ref{fig:calculators} shows the layouts of the calculators produced for t
 \caption{Simple Calculator Comparison Results}
 \label{table:calccompare}
 \end{table}
-Code practices for each platform were strictly adhered to. This allowed for the best possible comparison between the two platforms. It is clear to see from Table \ref{table:calccompare} that XCode produces the least amount of code to accomplish the result. Not only does this conform well with ISO9126(1992) standards of Good Programming Practices, future maintenance of the Objective-C's calculators will be easier than the auto generated Java code of 480 lines. Java/NetBeans creates 905\% more code for it's auto generated calculator and 118\% more for the hand written code. The reasons for these are outlined in Section \ref{sub:results}.
+Code practices for each platform were strictly adhered to. This allowed for the best possible comparison between the two platforms. It is clear to see from Table \ref{table:calccompare} that XCode produces the least amount of code to accomplish the result. Not only does this conform well with ISO9126(1992) standards of Good Programming Practices, future maintenance of the Objective-C's calculators will be easier than the auto generated Java code of 480 lines. Java/NetBeans creates 905\% more code for it's auto generated calculator and 118\% more for the hand written code. The reasons for these are outlined in Section \ref{sec:results}.
 
-\subsection{Results} % (fold)
-\label{sub:results}
+\section{Results} % (fold)
+\label{sec:results}
 
 % subsection results (end)
-Objective-C allows for the multiple use of instance variable names which allows for greater code flexibility when creating dynamic object instances such as buttons. Java insists on creating each object instance with a unique name. Creating a button in Objective-C entailed one method as Listing \ref{generateButtonObj}. When called by the class it instantiated an instance of NSButton, added all the required properties to initialize the button and was added to the view. Further evidence of this can be seen in Figure \ref{fig:classDiagrams} which shows class diagrams for each program. Clearly shown the Calculator created with the assistance of XCodes Interface Builder creates the most succinct class diagram. It also generates the cleanest simplest code from which to extend.
- 
+Objective-C allows for the multiple use of instance variable names which allows for greater code flexibility when creating dynamic object instances such as buttons. Java insists on creating each object instance with a unique name. Creating a button in Objective-C entailed one method shown in Listing \ref{generateButtonObj}. When called by the class it instantiated an instance of NSButton, added all the required properties to initialize the button and was added to the view. Further evidence of this can be seen in Figure \ref{fig:classDiagrams} which shows class diagrams for each program. The Class diagrams show the Calculator created with the assistance of XCodes Interface Builder creates the most succinct class diagram and generates the cleanest code from which to extend.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.75]{ClassDiagrams.eps}
+\caption{Class Diagram Comparison}
+\label{fig:classDiagrams}
+\end{figure}
 \begin{lstlisting}[caption={Create Button - Objective-C},language=C,label=generateButtonObj,]
 - (void)generateButtons:(NSView *)newView withButtonWidth:(int)buttonWidth andbuttonHeight:(int)buttonHeight andWhiteSpace:(int)whiteSpace withXPos:(int)xPos andYPos:(int)yPos withAdder:(int)adder andValue:(NSString *)stringVal
 {
@@ -332,10 +331,10 @@ Objective-C allows for the multiple use of instance variable names which allows 
     [button setAction:@selector(operationPressed:)];
 }
 \end{lstlisting}
-Alternatively Java instead of a single method as seen above to create the required buttons for the keypad, Java required three separate methods and an array declaration as an additional class field.
-First a method to add a button similar to the Objective-C method of generateButton. The method shown in Listing \ref{addButtonJava} emphasizes the differences. An array of Strings was required for the instance name and syntactically the code is far more verbose. Due to the necessity of requiring additional methods to create my keypad I was required to return the button created out of this method for use by another method that added the object to the view, titles \textbf{layOutButtons}, seen in Listing \ref{layOutButtons}.
+Alternatively NetBeans auto generated code insisted on creating a field for each button with a unique name. The version of the Calculator built using NetBeans interface builder created fifteen buttons as fields. Each Button created it's own Event Handler which needed to be deleted and rethreaded to a single event handler where the event could be determined and the button recast to a new object where the objects properties could be manipulated.
+This was again different in the hand coded Java Calculator. The method shown in Listing \ref{addButtonJava} emphasizes the difference. An array of Strings was used for the instance name, syntactically the code is far more verbose. Due to the necessity of requiring additional methods to create my keypad it is necessary to return the button created out of this method for use by another method that added the object to the view, titles \textbf{layOutButtons}, seen in Listing \ref{layOutButtons}.
 This is due to the fact that Objective-C is creating a pointer to the referenced object created as the property, for example the button is allocated on the heap, so creating objects dynamically in a for loop simply points to a new memory location on the heap each time a button is created. Where any object defined outside a method in Java becomes a field of the class and declared on the stack as opposed to the heap.
-
+\newpage
 \begin{lstlisting}[caption={Create Button - Java},language=Java,label=addButtonJava,]
 public JButton addButton(int xPos, int yPos, int count, int i)
    {
@@ -373,24 +372,15 @@ Since Objective-C combines both attributes of Static and Dynamic typing, objects
 
 Further evidence of extraneous bloated code generated by the GUI builder in Java and the extra code required for the hand coded version can be seen in Figure \ref{fig:classDiagrams} which shows class diagrams for each program. Clearly the Calculator created with the assistance of XCodes Interface Builder creates the most succinct class diagram. It also generates the cleanest simplest code from which to extend. What makes this extra code more unique in the NetBeans IDE is that it is not editable and any changes must be made through the Design View.
 
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.75]{ClassDiagrams.eps}
-\caption{Class Diagram Comparison}
-\label{fig:classDiagrams}
-\end{figure}
+
 % subsection simple_calculator (end)
 % section graphic_user_interface_architecture (end)
 
-\section{Event Handling} % (fold)
-\label{sec:event_handling}
-THIS SECTION COVERS HOW THE SYSTEMS DEAL WITH EVENTS
-% section framework_specific_objects (end)
+\section{Conclusion} % (fold)
+\label{sec:conclusion}
+Given prior experience with Objective-C and XCode, the similarities between Objective-C's Cocoa and Java's Swing were very small. Syntactical differences, small platform differences such as unique naming of objects were minor considerations. There were no fundamental differences in constructing the Calculators or Hello World programs in either platform that required major reconstruction of the process. I found increased freedom when using XCode over NetBeans and in more control over design elements and objects when using interface builder over NetBeans build in GUI Builder. XCode offered a far more intuitive approach to building a program with a far simpler more navigable interface builder. This was my first experience with Java and it was a simpler transition that thought, however XCode is a far superior development environment that both NetBeans and Eclipse, the latter I am more familiar with. This report has documented some of the main differences between building simple applications using Objective-C's Cocoa and Java's Swing frameworks. \textbf{Section \ref{sec:graphic_user_interface_architecture}} introduced the concepts of a Graphic User Interface. \textbf{Section \ref{sec:view_hierarchy_in_cocoa}} and \textbf{\ref{sec:view_hierarchy_in_swing}} discussed subtle differences in framework classes. \textbf{Section \ref{sec:hello_world}} and \textbf{Section \ref{sec:simple_calculator}} provided evidence relating to tests conducted while creating the two programs across the two frameworks and \textbf{Section \ref{sec:results}} displayed the results of those tests.
 
-\section{Object Information Passing} % (fold)
-\label{sec:object_information_passing}
-
-% section object_information_passing (end)
+% section conclusion (end)
 
 \newpage
 \scriptsize{\bibliographystyle{agsm}}

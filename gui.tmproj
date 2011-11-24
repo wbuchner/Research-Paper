@@ -10,7 +10,7 @@
 			<key>filename</key>
 			<string>gui.tex</string>
 			<key>lastUsed</key>
-			<date>2011-11-13T20:50:46Z</date>
+			<date>2011-11-23T09:31:23Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -48,14 +48,30 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>39</integer>
+				<integer>16</integer>
 				<key>line</key>
-				<integer>260</integer>
+				<integer>332</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>219</integer>
+			<integer>296</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>324</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>16</integer>
+				<key>line</key>
+				<integer>332</integer>
+			</dict>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
@@ -66,6 +82,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{750, 68}, {1416, 1350}}</string>
+	<string>{{574, 68}, {1416, 1350}}</string>
 </dict>
 </plist>
